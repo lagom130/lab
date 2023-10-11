@@ -1,0 +1,13 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: canary-provider
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+
+logging:
+  level:
+    root: info
+    io.github.lagom130: debug
