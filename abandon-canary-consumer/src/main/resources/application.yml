@@ -1,13 +1,17 @@
-#server:
-#  port: 8020
-#spring:
-#  application:
-#    name: canary-consumer
-#  cloud:
-#    nacos:
-#      server-addr: 127.0.0.1:8848
-#
-#logging:
-#  level:
-#    root: info
-#    io.github.lagom130: debug
+server:
+  port: 8020
+spring:
+  application:
+    name: canary-consumer
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8858
+        port: 8899
+
+logging:
+  level:
+    root: info
+    io.github.lagom130: debug

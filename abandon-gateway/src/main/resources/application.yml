@@ -1,0 +1,34 @@
+server:
+  port: 8000
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8858
+        port: 8899
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: qq-service
+          uri: https://www.qq.com
+          predicates:
+            - Method=GET,POST
+            - Path=/consumer-service/**
+        - id: canary-provider
+          uri: lb://canary-provider
+          predicates:
+            - Path=/provider/**
+        - id: canary-consumer
+          uri: lb://canary-consumer
+          predicates:
+            - Path=/consumer/**
+logging:
+  level:
+    root: info
+    io.github.lagom130: debug
