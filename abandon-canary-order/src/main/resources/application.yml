@@ -1,0 +1,17 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: canary-order
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8858
+        port: 8899
+
+logging:
+  level:
+    root: info
+    io.github.lagom130: debug

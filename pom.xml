@@ -13,6 +13,9 @@
         <module>vertex-learn</module>
         <module>abandon-canary-provider</module>
         <module>abandon-canary-consumer</module>
+        <module>abandon-canary-account</module>
+        <module>abandon-canary-storage</module>
+        <module>abandon-canary-order</module>
 
     </modules>
 
