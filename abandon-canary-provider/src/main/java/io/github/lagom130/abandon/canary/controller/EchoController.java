@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/provider")
-public class ProviderController {
-    @GetMapping("/echo/{str}")
+@RequestMapping("/echo")
+public class EchoController {
+    @GetMapping("/{str}")
     public String echo(@PathVariable("str") String str) {
         return "Hello Nacos Discovery " + str;
     }

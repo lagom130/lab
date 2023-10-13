@@ -1,15 +1,15 @@
 package io.github.lagom130.abandon.canary.controller;
 
+import io.github.lagom130.abandon.canary.service.client.CanaryProviderClient;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.cloud.loadbalancer.cache.LoadBalancerCacheManager;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Map;
 
 @RestController
 @RequestMapping("/consumer")
@@ -23,6 +23,8 @@ public class ConsumerController {
     @Value("${spring.application.name}")
     private String appName;
 
+    @Resource
+    private CanaryProviderClient providerClient;
 
     @GetMapping("/echo/app-name")
     public String echo() {
@@ -31,5 +33,10 @@ public class ConsumerController {
         System.out.println("request url:" + url);
         String result = restTemplate.getForObject(url, String.class);
         return result;
+    }
+
+    @GetMapping("/info")
+    public Map<String, Object> getInfo(@RequestParam String username) {
+         return providerClient.getInfoA(username);
     }
 }
