@@ -1,5 +1,6 @@
 package io.github.lagom130.lab.abandon.account.controller;
 
+import io.github.lagom130.lab.abandon.account.globalResponse.Result;
 import io.github.lagom130.lab.abandon.account.service.IAccountService;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
@@ -19,12 +20,8 @@ public class AccountController {
     private IAccountService accountService;
 
     @PostMapping("/{userId}/debit")
-    public String debit(@PathVariable("userId") String userId, @RequestParam("money") int money) {
-        try {
-            accountService.debit(userId, money);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "ok";
+    public Result debit(@PathVariable("userId") String userId, @RequestParam("money") int money) {
+        accountService.debit(userId, money);
+        return new Result().success();
     }
 }

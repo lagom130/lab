@@ -2,15 +2,13 @@ package io.github.lagom130.lab.abandon.order.controller;
 
 import io.github.lagom130.lab.abandon.order.dto.OrderDto;
 import io.github.lagom130.lab.abandon.order.entity.Order;
+import io.github.lagom130.lab.abandon.order.globalResponse.Result;
 import io.github.lagom130.lab.abandon.order.service.IOrderService;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
@@ -29,14 +27,14 @@ public class OrderController {
 
 
     @PostMapping("")
-    public Order create(@RequestBody OrderDto dto) {
-        try {
-            return orderService.create(dto.getUserId(), dto.getCommodityCode(), dto.getOrderCount());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
+    public Result<Order> create(@RequestBody OrderDto dto) {
+        return new Result<Order>().success(orderService.create(dto.getUserId(), dto.getCommodityCode(), dto.getOrderCount()));
 
     }
 
+    @GetMapping("/test")
+    public Result<Order> test() {
+        return new Result<Order>().success(orderService.get(0));
+
+    }
 }

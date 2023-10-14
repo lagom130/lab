@@ -15,4 +15,6 @@ import io.seata.spring.annotation.GlobalTransactional;
 public interface IOrderService extends IService<Order> {
 
     Order create(String userId, String commodityCode, int orderCount);
+
+    Order get(int oid);
 }

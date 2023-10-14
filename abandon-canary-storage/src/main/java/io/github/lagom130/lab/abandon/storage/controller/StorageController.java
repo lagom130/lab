@@ -1,5 +1,6 @@
 package io.github.lagom130.lab.abandon.storage.controller;
 
+import io.github.lagom130.lab.abandon.storage.globalResponse.Result;
 import io.github.lagom130.lab.abandon.storage.service.IStorageService;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
@@ -20,12 +21,8 @@ public class StorageController {
     IStorageService service;
 
     @PostMapping("/{commodityCode}")
-    public String deduct(@PathVariable("commodityCode") String commodityCode,@RequestParam int count) {
-        try {
-            service.deduct(commodityCode, count);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return "ok";
+    public Result deduct(@PathVariable("commodityCode") String commodityCode,@RequestParam int count) {
+        service.deduct(commodityCode, count);
+        return new Result<>().success();
     }
 }

@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import io.github.lagom130.lab.abandon.storage.entity.Storage;
+import io.github.lagom130.lab.abandon.storage.globalResponse.BizException;
 import io.github.lagom130.lab.abandon.storage.mapper.StorageMapper;
 import io.github.lagom130.lab.abandon.storage.service.IStorageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -26,10 +27,10 @@ public class StorageServiceImpl extends ServiceImpl<StorageMapper, Storage> impl
         queryWrapper.eq(Storage::getCommodityCode, commodityCode);
         Storage storage = this.getOne(queryWrapper);
         if(storage == null) {
-            throw new RuntimeException("商品不存在");
+            throw new BizException(400, "商品不存在");
         }
         if(storage.getCount()<=0) {
-            throw new RuntimeException("库存不足");
+            throw new BizException(400, "库存不足");
         }
         storage.setCount(storage.getCount()-1);
         this.updateById(storage);

@@ -3,6 +3,8 @@ package io.github.lagom130.lab.abandon.order.service.impl;
 import io.github.lagom130.lab.abandon.order.client.AccountClient;
 import io.github.lagom130.lab.abandon.order.client.StorageClient;
 import io.github.lagom130.lab.abandon.order.entity.Order;
+import io.github.lagom130.lab.abandon.order.globalResponse.BizException;
+import io.github.lagom130.lab.abandon.order.globalResponse.Result;
 import io.github.lagom130.lab.abandon.order.mapper.OrderMapper;
 import io.github.lagom130.lab.abandon.order.service.IOrderService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -37,12 +39,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 
         // 计算订单金额
         int orderMoney = calculate(commodityCode, orderCount);
-
-        // 从账户余额扣款
-        accountClient.debit(userId, orderMoney);
-        // 扣减库存
-        storageClient.deduct(commodityCode, orderCount);
-
         Order order = new Order();
 
         order.setUserId(userId);
@@ -50,8 +46,23 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         order.setCommodityCode(commodityCode);
         order.setMoney(orderMoney);
         this.save(order);
-        throw new RuntimeException("分布式回滚测试");
-//        return order;
+        // 从账户余额扣款
+        Result debit = accountClient.debit(userId, orderMoney);
+        if (debit.getCode() != 200) {
+            throw new BizException(debit.getCode(), debit.getMsg());
+        }
+        // 扣减库存
+        Result deduct = storageClient.deduct(commodityCode, orderCount);
+        if (deduct.getCode() != 200) {
+            throw new BizException(deduct.getCode(), deduct.getMsg());
+        }
+
+        return order;
+    }
+
+    @Override
+    public Order get(int oid) {
+        throw new BizException(400, "not found");
     }
 
     private int calculate(String commodityId, int orderCount) {
