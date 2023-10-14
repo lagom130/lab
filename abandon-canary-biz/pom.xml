@@ -9,33 +9,16 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github.lagom130.lab</groupId>
-    <artifactId>abandon-canary-account</artifactId>
+    <artifactId>abandon-canary-biz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>abandon-canary-account</name>
-    <description>abandon-canary-account</description>
+    <name>abandon-canary-biz</name>
+    <description>abandon-canary-biz</description>
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.4</spring-cloud.version>
         <spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <version>8.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.2.20</version>
-        </dependency>
-
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
