@@ -11,6 +11,8 @@
 
     <modules>
         <module>vertex-learn</module>
+        <module>vertex-wrap-prism</module>
+        <module>abandon-gateway</module>
         <module>abandon-canary-provider</module>
         <module>abandon-canary-consumer</module>
         <module>abandon-canary-biz</module>
