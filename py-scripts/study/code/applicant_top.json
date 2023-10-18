@@ -1,0 +1,242 @@
+[
+  {
+    "applicantDeptName": "苏州市大数据管理局",
+    "totalCount": 16389864,
+    "data": [
+      {
+        "sourceName": "企业养老缴费明细查询",
+        "totalCount": 3626344,
+        "data": [
+          {
+            "providerDeptName": "苏州市社会保险基金管理中心",
+            "count": 3626344
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明打印市级范围",
+        "totalCount": 2491329,
+        "data": [
+          {
+            "providerDeptName": "苏州市社会保险基金管理中心",
+            "count": 2491329
+          }
+        ]
+      },
+      {
+        "sourceName": "城镇职工医保缴费明细查询",
+        "totalCount": 1445495,
+        "data": [
+          {
+            "providerDeptName": "苏州市社会保险基金管理中心",
+            "count": 1445495
+          }
+        ]
+      },
+      {
+        "sourceName": "个人信息查询",
+        "totalCount": 1347590,
+        "data": [
+          {
+            "providerDeptName": "苏州市社会保险基金管理中心",
+            "count": 1347590
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明打印",
+        "totalCount": 1098758,
+        "data": [
+          {
+            "providerDeptName": "苏州市社会保险基金管理中心",
+            "count": 1098758
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "applicantDeptName": "苏州市民政局",
+    "totalCount": 16281422,
+    "data": [
+      {
+        "sourceName": "苏州人口库-户籍人口社区信息查询",
+        "totalCount": 9003613,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 9003613
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库身份验证",
+        "totalCount": 3683059,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 3683059
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-身份证信息查询",
+        "totalCount": 2456288,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 2456288
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-居住证社区信息查询",
+        "totalCount": 1090326,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 1090326
+          }
+        ]
+      },
+      {
+        "sourceName": "死亡医学证明",
+        "totalCount": 47729,
+        "data": [
+          {
+            "providerDeptName": "苏州市卫生健康委员会",
+            "count": 47729
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "applicantDeptName": "苏州市政府门户网站管理中心",
+    "totalCount": 15349465,
+    "data": [
+      {
+        "sourceName": "制卡进度查询",
+        "totalCount": 13895153,
+        "data": [
+          {
+            "providerDeptName": "苏州市人力资源和社会保障局",
+            "count": 13895153
+          }
+        ]
+      },
+      {
+        "sourceName": "医保药品目录查询1",
+        "totalCount": 693622,
+        "data": [
+          {
+            "providerDeptName": "苏州市医疗保障局",
+            "count": 693622
+          }
+        ]
+      },
+      {
+        "sourceName": "医用材料库查询",
+        "totalCount": 348104,
+        "data": [
+          {
+            "providerDeptName": "苏州市医疗保障局",
+            "count": 348104
+          }
+        ]
+      },
+      {
+        "sourceName": "诊疗项目查询",
+        "totalCount": 290544,
+        "data": [
+          {
+            "providerDeptName": "苏州市医疗保障局",
+            "count": 290544
+          }
+        ]
+      },
+      {
+        "sourceName": "门特药品目录查询",
+        "totalCount": 43377,
+        "data": [
+          {
+            "providerDeptName": "苏州市医疗保障局",
+            "count": 43377
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "applicantDeptName": "苏州市人大常委会",
+    "totalCount": 8809800,
+    "data": [
+      {
+        "sourceName": "苏州人口库-户籍人口信息查询",
+        "totalCount": 8809800,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 8809800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "applicantDeptName": "苏州市市场监督管理局",
+    "totalCount": 7820360,
+    "data": [
+      {
+        "sourceName": "公安实名认证接口",
+        "totalCount": 7820285,
+        "data": [
+          {
+            "providerDeptName": "苏州市大数据管理局",
+            "count": 7820285
+          }
+        ]
+      },
+      {
+        "sourceName": "政府-政务网地址查询",
+        "totalCount": 24,
+        "data": [
+          {
+            "providerDeptName": "苏州市公安局",
+            "count": 24
+          }
+        ]
+      },
+      {
+        "sourceName": "自然人安全生产领域黑名单",
+        "totalCount": 12,
+        "data": [
+          {
+            "providerDeptName": "苏州市发展和改革委员会",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单(拖欠农民工工资)",
+        "totalCount": 9,
+        "data": [
+          {
+            "providerDeptName": "苏州市发展和改革委员会",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "sourceName": "法人安全生产领域黑名单",
+        "totalCount": 8,
+        "data": [
+          {
+            "providerDeptName": "苏州市发展和改革委员会",
+            "count": 8
+          }
+        ]
+      }
+    ]
+  }
+]

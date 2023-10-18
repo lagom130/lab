@@ -1,0 +1,7426 @@
+[
+  {
+    "providerDeptName": "苏州市公安局",
+    "totalCount": 31650089,
+    "data": [
+      {
+        "sourceName": "苏州人口库-户籍人口社区信息查询",
+        "totalCount": 9003613,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 9003613
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-户籍人口信息查询",
+        "totalCount": 8810010,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人大常委会",
+            "count": 8809800
+          },
+          {
+            "applicantDeptName": "苏州市残疾人联合会",
+            "count": 210
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库身份验证",
+        "totalCount": 3683175,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 3683059
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 73
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 23
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 14
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "电子户口簿证照查询",
+        "totalCount": 3097492,
+        "data": [
+          {
+            "applicantDeptName": "苏州市住房公积金管理中心",
+            "count": 2671814
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 204834
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 133908
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 49179
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 14080
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 10417
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 9084
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 2334
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 1000
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 786
+          },
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "苏州市教育局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-身份证信息查询",
+        "totalCount": 2456288,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 2456288
+          }
+        ]
+      },
+      {
+        "sourceName": "电子身份证证照查询",
+        "totalCount": 1361499,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 658027
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 318342
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 302931
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 22526
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 21851
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 17716
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 14770
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 2368
+          },
+          {
+            "applicantDeptName": "市委纪律检查委员会监察委员会",
+            "count": 1317
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 1207
+          },
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 284
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 82
+          },
+          {
+            "applicantDeptName": "苏州市教育局",
+            "count": 41
+          },
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 29
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-居住证社区信息查询",
+        "totalCount": 1090326,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 1090326
+          }
+        ]
+      },
+      {
+        "sourceName": "婚姻登记信息电子证照查询",
+        "totalCount": 627548,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 617531
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 4063
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 3048
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 2297
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 379
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 131
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 63
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "电子工商营业执照证照查询",
+        "totalCount": 356491,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 150537
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 67877
+          },
+          {
+            "applicantDeptName": "苏州市城市管理局",
+            "count": 60968
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 48644
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 13449
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 5862
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 3198
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 2980
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 2088
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 442
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 359
+          },
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 44
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 26
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "出生医学证明电子证照",
+        "totalCount": 244467,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 194519
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 34822
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 12577
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1157
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 1041
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 273
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 65
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-车辆查询",
+        "totalCount": 201424,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 200664
+          },
+          {
+            "applicantDeptName": "市委纪律检查委员会监察委员会",
+            "count": 665
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 95
+          }
+        ]
+      },
+      {
+        "sourceName": "电子居住证证照查询",
+        "totalCount": 148765,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 81825
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 39254
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 9501
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 9154
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 4415
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2113
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 861
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 703
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 463
+          },
+          {
+            "applicantDeptName": "苏州市住房公积金管理中心",
+            "count": 446
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 30
+          }
+        ]
+      },
+      {
+        "sourceName": "电子驾驶证证照查询",
+        "totalCount": 147513,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 68271
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 40046
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 12516
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 9816
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 9652
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 4659
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1291
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 648
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 614
+          }
+        ]
+      },
+      {
+        "sourceName": "电子道路运输经营许可证证照查询",
+        "totalCount": 100272,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 34185
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 30055
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 28693
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5928
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 812
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 345
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 215
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 27
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "电子道路运输从业资格证证照查询",
+        "totalCount": 95335,
+        "data": [
+          {
+            "applicantDeptName": "工业园区",
+            "count": 30349
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 28707
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 25293
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5743
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 4129
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 519
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 304
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 289
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "电子行驶证证照查询",
+        "totalCount": 50399,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 17680
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 10941
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6672
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 6562
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 4660
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 2268
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 931
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 543
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 124
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 18
+          }
+        ]
+      },
+      {
+        "sourceName": "建设用地规划许可证查询",
+        "totalCount": 35548,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 28387
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5893
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 510
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 242
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 183
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 172
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 68
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 28
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "公证书电子证照查询",
+        "totalCount": 32546,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 25291
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 3982
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 3055
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 108
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 103
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "城镇污水排入排水管网许可证电子证照",
+        "totalCount": 25850,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 25308
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 485
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 37
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-户籍死亡人口查询",
+        "totalCount": 24314,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 16295
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5721
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 1527
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 486
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 252
+          },
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 22
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "sourceName": "建设工程规划许可证查询",
+        "totalCount": 21224,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 20419
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 239
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 214
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 145
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 100
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 87
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "电子户口簿证照（全部家庭成员）查询",
+        "totalCount": 10983,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 9224
+          },
+          {
+            "applicantDeptName": "苏州市税务局",
+            "count": 1710
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 37
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "省结婚证电子证照查询",
+        "totalCount": 10953,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 5798
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 4929
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 110
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 86
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "居民死亡医学证明（推断）书电子证照",
+        "totalCount": 6045,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5735
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 165
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 145
+          }
+        ]
+      },
+      {
+        "sourceName": "社会组织信息电子证照查询",
+        "totalCount": 3707,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 2292
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 641
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 560
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 101
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 98
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-实有单位信息查询",
+        "totalCount": 1031,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1031
+          }
+        ]
+      },
+      {
+        "sourceName": "不动产权证照查询",
+        "totalCount": 1025,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 535
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 480
+          },
+          {
+            "applicantDeptName": "苏州市教育局",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-实有人口信息查询",
+        "totalCount": 707,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 707
+          }
+        ]
+      },
+      {
+        "sourceName": "取水许可证电子证照",
+        "totalCount": 623,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 492
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 71
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 32
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-实有房屋信息查询",
+        "totalCount": 281,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 281
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-照片查询",
+        "totalCount": 237,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 237
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-建筑人口数据统计查询",
+        "totalCount": 188,
+        "data": [
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 188
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-人口基础信息自定义查询",
+        "totalCount": 47,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 44
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "政府-政务网地址查询",
+        "totalCount": 44,
+        "data": [
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 24
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-姑苏区社区人口数据统计查询",
+        "totalCount": 36,
+        "data": [
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 36
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库重名查询",
+        "totalCount": 29,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 22
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州人口库-挂失查询",
+        "totalCount": 29,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 29
+          }
+        ]
+      },
+      {
+        "sourceName": "人口类型查询",
+        "totalCount": 13,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "sourceName": "成品油零售经营批准证书电子证照",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "社会组织信息查询",
+        "totalCount": 4,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "公证书证照查询",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市社会保险基金管理中心",
+    "totalCount": 16153946,
+    "data": [
+      {
+        "sourceName": "企业养老缴费明细查询",
+        "totalCount": 3626884,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 3626344
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 537
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明打印市级范围",
+        "totalCount": 2491571,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 2491329
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 224
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "城镇职工医保缴费明细查询",
+        "totalCount": 1446912,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1445495
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 917
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 498
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人信息查询",
+        "totalCount": 1347590,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1347590
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明打印",
+        "totalCount": 1098778,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1098758
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "城乡居民养老缴费明细查询",
+        "totalCount": 1064391,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1060001
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 3596
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 732
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 50
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "工伤保险缴费明细查询",
+        "totalCount": 969755,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 968865
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 565
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 244
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 77
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "生育保险缴费明细查询",
+        "totalCount": 922900,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 921883
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 611
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 292
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 112
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "失业保险缴费明细查询",
+        "totalCount": 809716,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 808912
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 455
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 321
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 25
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "城乡居民医保缴费明细查询",
+        "totalCount": 777560,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 777011
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 318
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 225
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "医保药品目录查询",
+        "totalCount": 332020,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 332019
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明验证",
+        "totalCount": 233335,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 233292
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 25
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人权益单查询",
+        "totalCount": 220321,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 220318
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "企业退休待遇调整查询",
+        "totalCount": 172886,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 172763
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 121
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "诊疗项目查询",
+        "totalCount": 135371,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 135368
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "医用材料库查询",
+        "totalCount": 72756,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 72745
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "sourceName": "参保归属地查询",
+        "totalCount": 66940,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 66938
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "待遇收入证明打印市级范围",
+        "totalCount": 65209,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 65208
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "单位参保证明验证",
+        "totalCount": 39078,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 39064
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "社会保险待遇证明自助打印",
+        "totalCount": 38036,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 37687
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 349
+          }
+        ]
+      },
+      {
+        "sourceName": "定点医疗机构名单查询",
+        "totalCount": 37938,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 28761
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 9176
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "人员基本信息查询（身份证号+姓名）",
+        "totalCount": 29903,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 26297
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 3206
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 400
+          }
+        ]
+      },
+      {
+        "sourceName": "企业退休人员体检安排查询",
+        "totalCount": 28895,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 28713
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 178
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "企业退休人员档案移交查询",
+        "totalCount": 28637,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 28549
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 87
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "催办信息查询",
+        "totalCount": 26623,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 26517
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 89
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 16
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "门特药品目录查询",
+        "totalCount": 22164,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 22160
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "待遇收入证明打印",
+        "totalCount": 21740,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 21739
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "待遇收入证明验证",
+        "totalCount": 19877,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 19834
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "零星报销结算单查询",
+        "totalCount": 1832,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1830
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "居民医保缴费记录查询接口（PC",
+        "totalCount": 1277,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 637
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 623
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "居民养老待遇查询接口",
+        "totalCount": 651,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 479
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 137
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 24
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "提供企业退休人员情况查询",
+        "totalCount": 567,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 397
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 154
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "本地企业退休人员资格认证查询",
+        "totalCount": 490,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 289
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 191
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "零星报销结算单数据查询",
+        "totalCount": 252,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 250
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "异地企业退休人员资格认证查询",
+        "totalCount": 232,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 146
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 78
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "异地退休人员领取养老金资格协助认",
+        "totalCount": 231,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 169
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 36
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 25
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "提供老年居民情况查询",
+        "totalCount": 225,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 130
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 92
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "纳入社会化管理人员的困难补助名单信息查询",
+        "totalCount": 203,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 115
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 82
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "企业退休人员纳入社会化管理服务",
+        "totalCount": 189,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 101
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 84
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "查询省市区对照接口",
+        "totalCount": 9,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "纳入社会化管理人员查询",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "接待纳入社会化管理人员来信来访接口",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市人力资源和社会保障局",
+    "totalCount": 14630020,
+    "data": [
+      {
+        "sourceName": "制卡进度查询",
+        "totalCount": 13895173,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 13895153
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "sourceName": "一次性领取失业保险金结果查询",
+        "totalCount": 343440,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 343304
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 116
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "灵活就业社会保险补贴结果查询",
+        "totalCount": 306500,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 306332
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 115
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 45
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "创业培训报名查询",
+        "totalCount": 44174,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 43847
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 250
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 61
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 14
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人参保证明打印大市范围",
+        "totalCount": 9699,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8115
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 1521
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 60
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "就业创业证申报查询",
+        "totalCount": 9446,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8914
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 405
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 65
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 59
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "失业登记查询",
+        "totalCount": 9329,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 8934
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 362
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 30
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "因病或非因工丧失劳动能力鉴定结果查询",
+        "totalCount": 5268,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 5223
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 41
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "社保卡状态查询",
+        "totalCount": 838,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 607
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 226
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "稳岗补贴结果查询",
+        "totalCount": 588,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 405
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 180
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "待遇收入证明打印大市范围",
+        "totalCount": 583,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 566
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "个人《就业创业证》电子证查询",
+        "totalCount": 522,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 395
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 73
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 34
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "失业保险金申领查询",
+        "totalCount": 496,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 295
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 110
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 86
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "因工致残劳动能力鉴定结果查询",
+        "totalCount": 464,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 427
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "创业培训报名项目具体信息",
+        "totalCount": 428,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 319
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 102
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "创业培训报名结果查询",
+        "totalCount": 396,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 307
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 36
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 28
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "就业创业证办理结果查询",
+        "totalCount": 365,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 324
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 30
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "工伤认定申请结果查询",
+        "totalCount": 273,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 267
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "个人《就业创业证》电子证初始化",
+        "totalCount": 249,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 221
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "参保职工技能提升培训补贴结果查询",
+        "totalCount": 244,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 233
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "失业保险金申请初始化",
+        "totalCount": 237,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 199
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 25
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "创业培训报名校验初始化",
+        "totalCount": 234,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 183
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 41
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "创业培训报名申请",
+        "totalCount": 229,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 211
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 16
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "失业保险金申请",
+        "totalCount": 222,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 195
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 24
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "个人《就业创业证》电子证申请",
+        "totalCount": 215,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 204
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "自主申报就业结果查询",
+        "totalCount": 138,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 61
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 30
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 26
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "sourceName": "申报就业查询",
+        "totalCount": 97,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 62
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 28
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "失业登记初始化",
+        "totalCount": 95,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 93
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "申报就业初始化",
+        "totalCount": 35,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 31
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "就业困难人员申报",
+        "totalCount": 21,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "sourceName": "在领失业金人员丧葬抚恤金受理结果查询",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "申报就业保存",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "失业登记保存",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市大数据管理局",
+    "totalCount": 9009378,
+    "data": [
+      {
+        "sourceName": "公安实名认证接口",
+        "totalCount": 7888104,
+        "data": [
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 7820285
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 41297
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 10551
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 8182
+          },
+          {
+            "applicantDeptName": "苏州市卫生健康委员会",
+            "count": 4423
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 2190
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 742
+          },
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 214
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 90
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 82
+          },
+          {
+            "applicantDeptName": "苏州市文化广电和旅游局",
+            "count": 35
+          },
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "公安实人认证接口",
+        "totalCount": 1002251,
+        "data": [
+          {
+            "applicantDeptName": "苏州市财政局",
+            "count": 839568
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 74987
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 39025
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 29211
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 8794
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 6902
+          },
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 2668
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 464
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 327
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 235
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 41
+          },
+          {
+            "applicantDeptName": "苏州市住房公积金管理中心",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "苏州市统计局",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_目录信息下行",
+        "totalCount": 39212,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 20273
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 10043
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 8408
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 222
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 200
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 26
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录注册",
+        "totalCount": 20064,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 16314
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3490
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 135
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 110
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_目录分类下行",
+        "totalCount": 13933,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 13660
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 84
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 73
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 53
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 47
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录撤销",
+        "totalCount": 8960,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6813
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1919
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 115
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 105
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "目录级联-上报-接口资源注册",
+        "totalCount": 8482,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7065
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1378
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 36
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-库表资源注册",
+        "totalCount": 4596,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 4420
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 169
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "电子身份证证照查询",
+        "totalCount": 4374,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 4133
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 185
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 41
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_接口资源下行",
+        "totalCount": 3690,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3024
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 561
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 93
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "电子户口簿证照查询",
+        "totalCount": 3392,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 3317
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 53
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市2019年行政区划（2000坐标）",
+        "totalCount": 2997,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 2977
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州市城市管理局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_库表资源下行",
+        "totalCount": 2404,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1930
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 342
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 99
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 18
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 15
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录分类注册",
+        "totalCount": 2100,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1463
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 253
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 161
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 127
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 93
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "电子工商营业执照证照查询",
+        "totalCount": 1083,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 797
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 253
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 24
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录变更",
+        "totalCount": 1040,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1033
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录分类撤销",
+        "totalCount": 669,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 301
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 126
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 121
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 121
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-接口资源撤销",
+        "totalCount": 291,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 284
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-文件资源上报",
+        "totalCount": 201,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 200
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_资源申请订阅下行",
+        "totalCount": 182,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 84
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 80
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "sourceName": "电子身份证证照查询（服务即将下架，请申请苏州市公安局发布的证照接口）",
+        "totalCount": 156,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 156
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市2017年影像图（2000坐标）",
+        "totalCount": 152,
+        "data": [
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 142
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "电子行驶证证照查询",
+        "totalCount": 146,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 121
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 23
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_文件资源下行",
+        "totalCount": 144,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 102
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 33
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-库表资源撤销",
+        "totalCount": 113,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 87
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 26
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-目录分类变更",
+        "totalCount": 76,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 75
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "电子驾驶证证照查询",
+        "totalCount": 72,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 48
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 24
+          }
+        ]
+      },
+      {
+        "sourceName": "电子居住证证照查询",
+        "totalCount": 68,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 45
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 22
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_区县目录分类下行",
+        "totalCount": 63,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 63
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市电子地图2019年（资规局版）",
+        "totalCount": 56,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人民防空办公室",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_上报_附件下载",
+        "totalCount": 56,
+        "data": [
+          {
+            "applicantDeptName": "工业园区",
+            "count": 56
+          }
+        ]
+      },
+      {
+        "sourceName": "电子户口簿证照查询（服务即将下架，请申请苏州市公安局发布的证照接口）",
+        "totalCount": 46,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 46
+          }
+        ]
+      },
+      {
+        "sourceName": "电子道路运输经营许可证证照查询",
+        "totalCount": 42,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 34
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州电子地图2019彩色版（2000坐标",
+        "totalCount": 32,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "sourceName": "标准地址经纬度查询",
+        "totalCount": 24,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "苏州市城市管理局",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_上报_附件上传",
+        "totalCount": 17,
+        "data": [
+          {
+            "applicantDeptName": "工业园区",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-资源申请",
+        "totalCount": 16,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "sourceName": "兴趣点查询（根据名称关键字查询POI兴趣点信息）",
+        "totalCount": 16,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联-上报-文件资源撤销",
+        "totalCount": 15,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "电子道路运输从业资格证证照查询",
+        "totalCount": 9,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_上报_资源订阅",
+        "totalCount": 9,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_下放_区县目录信息下行接口",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "电子工商营业执照证照查询（服务即将下架，请申请苏州市公安局发布的证照接口）",
+        "totalCount": 5,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市电子地图午夜蓝版（2000坐标）",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市电子地图2019彩色版（84坐标）",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "苏州市城市管理局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_上报_资源需求方取消资源申请",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市电子地图灰色版（2000坐标）",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "区县级联_上报_资源申请审核",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市住房公积金管理中心",
+    "totalCount": 8529910,
+    "data": [
+      {
+        "sourceName": "公积金个人账户基本信息",
+        "totalCount": 6403485,
+        "data": [
+          {
+            "applicantDeptName": "苏州市发展和改革委员会",
+            "count": 5019045
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 938454
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 199915
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 85044
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 81355
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 47462
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 15802
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 12834
+          },
+          {
+            "applicantDeptName": "市委纪律检查委员会监察委员会",
+            "count": 1436
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 1062
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 807
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 247
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 22
+          }
+        ]
+      },
+      {
+        "sourceName": "流动人口积分管理查询接口",
+        "totalCount": 947590,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 947590
+          }
+        ]
+      },
+      {
+        "sourceName": "公积金贷款账户基本信息",
+        "totalCount": 538697,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 341812
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 87974
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 42671
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 23033
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 17277
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 12953
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 12071
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 480
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 225
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 183
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 18
+          }
+        ]
+      },
+      {
+        "sourceName": "公积金缴存单位账户信息",
+        "totalCount": 277755,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 274660
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 2796
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 109
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 83
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 74
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 18
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 14
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "公积金个人账户明细信息",
+        "totalCount": 233983,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 142822
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 64476
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 9942
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 9830
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 2539
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 2139
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 1504
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 379
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 265
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 76
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "sourceName": "公积金贷款还款明细信息",
+        "totalCount": 52459,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 22095
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 13003
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 9323
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 6030
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1016
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 404
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 301
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 202
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 78
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "缴存地校验人员信息接口",
+        "totalCount": 47606,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 47606
+          }
+        ]
+      },
+      {
+        "sourceName": "购房地省政务核验房屋信息接口",
+        "totalCount": 25293,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 25293
+          }
+        ]
+      },
+      {
+        "sourceName": "缴存地核验信息反馈提取金额接口",
+        "totalCount": 2500,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 2500
+          }
+        ]
+      },
+      {
+        "sourceName": "缴存地校验银行卡及接收全部信息接口",
+        "totalCount": 199,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 199
+          }
+        ]
+      },
+      {
+        "sourceName": "出具贷款职工住房公积金缴存使用证明",
+        "totalCount": 163,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 163
+          }
+        ]
+      },
+      {
+        "sourceName": "提前还清住房公积金贷款",
+        "totalCount": 92,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 92
+          }
+        ]
+      },
+      {
+        "sourceName": "开具住房公积金个人贷款全部还清证明",
+        "totalCount": 88,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市市场监督管理局",
+    "totalCount": 3786700,
+    "data": [
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据行业类别或经营范围或统一社会信用代码或证照号码））",
+        "totalCount": 1193301,
+        "data": [
+          {
+            "applicantDeptName": "苏州市生态环境局",
+            "count": 1114614
+          },
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 78687
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据行业类别或经营范围或统一社会信用代码或证照号码）",
+        "totalCount": 1162322,
+        "data": [
+          {
+            "applicantDeptName": "苏州市生态环境局",
+            "count": 1113890
+          },
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 48432
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息和人员信息（共计39个指标项）（根据姓名和证件信息））",
+        "totalCount": 345982,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 345925
+          },
+          {
+            "applicantDeptName": "市委纪律检查委员会监察委员会",
+            "count": 57
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息和人员信息（共计39个指标项）（根据姓名和证件信息）",
+        "totalCount": 338316,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 338266
+          },
+          {
+            "applicantDeptName": "市委纪律检查委员会监察委员会",
+            "count": 50
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据机构名称获取）特殊）",
+        "totalCount": 138125,
+        "data": [
+          {
+            "applicantDeptName": "苏州市广播电视总台",
+            "count": 138125
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据机构名称获取）特殊",
+        "totalCount": 129441,
+        "data": [
+          {
+            "applicantDeptName": "苏州市广播电视总台",
+            "count": 129441
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据机构名称获取））",
+        "totalCount": 87604,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 87597
+          },
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "市委政法委员会",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据机构名称获取）",
+        "totalCount": 87257,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 87254
+          },
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息）",
+        "totalCount": 60423,
+        "data": [
+          {
+            "applicantDeptName": "市委台湾工作办公室",
+            "count": 53624
+          },
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 6572
+          },
+          {
+            "applicantDeptName": "苏州市政府外事办公室",
+            "count": 227
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息",
+        "totalCount": 60114,
+        "data": [
+          {
+            "applicantDeptName": "市委台湾工作办公室",
+            "count": 53524
+          },
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 6381
+          },
+          {
+            "applicantDeptName": "苏州市政府外事办公室",
+            "count": 209
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（共计10个指标项）（根据姓名和证件信息））",
+        "totalCount": 53054,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 43161
+          },
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 9623
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 270
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（共计10个指标项）（根据姓名和证件信息）",
+        "totalCount": 50815,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 42472
+          },
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 8083
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 260
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据行业类别获取））",
+        "totalCount": 25430,
+        "data": [
+          {
+            "applicantDeptName": "苏州市工业和信息化局",
+            "count": 14435
+          },
+          {
+            "applicantDeptName": "苏州市文化广电和旅游局",
+            "count": 10626
+          },
+          {
+            "applicantDeptName": "市委政法委员会",
+            "count": 346
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 23
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息核验）",
+        "totalCount": 22166,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 22166
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据行业类别获取）",
+        "totalCount": 16940,
+        "data": [
+          {
+            "applicantDeptName": "苏州市工业和信息化局",
+            "count": 8804
+          },
+          {
+            "applicantDeptName": "苏州市文化广电和旅游局",
+            "count": 7768
+          },
+          {
+            "applicantDeptName": "市委政法委员会",
+            "count": 346
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 22
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息核验",
+        "totalCount": 6891,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6891
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息和人员信息（根据姓名和证件号码））",
+        "totalCount": 2950,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 2950
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息和人员信息（根据姓名和证件号码）",
+        "totalCount": 2836,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 2836
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据姓名和身份证信息获取））",
+        "totalCount": 681,
+        "data": [
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 394
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 287
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据姓名和身份证）",
+        "totalCount": 639,
+        "data": [
+          {
+            "applicantDeptName": "苏州市自然资源和规划局",
+            "count": 367
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 272
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织证照信息（根据统一社会信用代码或证照号码获取）",
+        "totalCount": 418,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 418
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织证照信息（根据统一社会信用代码或证照号码获取））",
+        "totalCount": 403,
+        "data": [
+          {
+            "applicantDeptName": "苏州市人力资源和社会保障局",
+            "count": 403
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（市场主体信息））",
+        "totalCount": 227,
+        "data": [
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 227
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（市场主体信息）",
+        "totalCount": 179,
+        "data": [
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 179
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息认证）",
+        "totalCount": 95,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 95
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息认证",
+        "totalCount": 39,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 39
+          }
+        ]
+      },
+      {
+        "sourceName": "市场主体基本数据信息查询接口",
+        "totalCount": 34,
+        "data": [
+          {
+            "applicantDeptName": "苏州市统计局",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市法人及其他社会组织基础信息（根据经营范围获取）",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "获取唯一标识信息（苏州市法人及其他社会组织基础信息（根据经营范围获取））",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市医疗保障局",
+    "totalCount": 2134598,
+    "data": [
+      {
+        "sourceName": "医保药品目录查询1",
+        "totalCount": 693732,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 693622
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 92
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "门特药品目录查询",
+        "totalCount": 382266,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 338864
+          },
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 43377
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 25
+          }
+        ]
+      },
+      {
+        "sourceName": "定点医疗机构名单查询",
+        "totalCount": 374071,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 334866
+          },
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 39157
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 35
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "医用材料库查询",
+        "totalCount": 348154,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 348104
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 29
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 21
+          }
+        ]
+      },
+      {
+        "sourceName": "诊疗项目查询",
+        "totalCount": 290546,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 290544
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "医保个人账户更新查询",
+        "totalCount": 22062,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 22062
+          }
+        ]
+      },
+      {
+        "sourceName": "参保职工医保证明自助打印",
+        "totalCount": 13682,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 13682
+          }
+        ]
+      },
+      {
+        "sourceName": "社会保险药品目录查询接口V1.0",
+        "totalCount": 6062,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 5299
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 757
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "职工医保证明自助验证",
+        "totalCount": 3270,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 3270
+          }
+        ]
+      },
+      {
+        "sourceName": "医保药品目录查询",
+        "totalCount": 472,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 213
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 175
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 60
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 24
+          }
+        ]
+      },
+      {
+        "sourceName": "职工个人缴费情况汇总查询",
+        "totalCount": 89,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 89
+          }
+        ]
+      },
+      {
+        "sourceName": "职工个人缴费明细查询",
+        "totalCount": 83,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 83
+          }
+        ]
+      },
+      {
+        "sourceName": "居民医保参保证明打印",
+        "totalCount": 49,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 49
+          }
+        ]
+      },
+      {
+        "sourceName": "职工个人缴费情况汇总打印",
+        "totalCount": 32,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 32
+          }
+        ]
+      },
+      {
+        "sourceName": "个人缴费明细打印",
+        "totalCount": 28,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府门户网站管理中心",
+            "count": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市城市管理局",
+    "totalCount": 2062935,
+    "data": [
+      {
+        "sourceName": "苏州市公共自行车实时站点资源信息接口V2.0",
+        "totalCount": 1053958,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 1053958
+          }
+        ]
+      },
+      {
+        "sourceName": "数字城管单个部件数据服务",
+        "totalCount": 568264,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 568264
+          }
+        ]
+      },
+      {
+        "sourceName": "公共自行车借还记录资源信息V2",
+        "totalCount": 188988,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 188988
+          }
+        ]
+      },
+      {
+        "sourceName": "数字城管案件资源信息接口",
+        "totalCount": 57816,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 57816
+          }
+        ]
+      },
+      {
+        "sourceName": "市容环境专项整治提升基础数据资源信息",
+        "totalCount": 37882,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 37882
+          }
+        ]
+      },
+      {
+        "sourceName": "市容环境整治提升进度资源信息",
+        "totalCount": 36018,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 36018
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州农村垃圾分类行政村资源信息",
+        "totalCount": 18271,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 18271
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分���终端计量（厨余量）资源信息",
+        "totalCount": 11259,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 11259
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类终端计量（焚烧量）资源信息",
+        "totalCount": 11193,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 11193
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类终端计量（填埋量）资源信息",
+        "totalCount": 10894,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10894
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类小区资源信息",
+        "totalCount": 10875,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10875
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类公共机构信息资源",
+        "totalCount": 10726,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10726
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类终端计量（餐厨量）资源信息",
+        "totalCount": 10426,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10426
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫渣土入库企业资源信息",
+        "totalCount": 9537,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 9537
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市停车场资源信息接口V2.0",
+        "totalCount": 9301,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 9301
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫渣土车辆资源信息",
+        "totalCount": 9113,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 9113
+          }
+        ]
+      },
+      {
+        "sourceName": "公共自行车基础站点资源信息V2",
+        "totalCount": 6027,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6027
+          }
+        ]
+      },
+      {
+        "sourceName": "公共自行车基础站点数据接口",
+        "totalCount": 916,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 916
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州环卫垃圾分类终端计量（厨余量）资源信息",
+        "totalCount": 618,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 618
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市停车场资源信息接口",
+        "totalCount": 276,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 276
+          }
+        ]
+      },
+      {
+        "sourceName": "数字城管部件资源在线服务",
+        "totalCount": 244,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 244
+          }
+        ]
+      },
+      {
+        "sourceName": "数字城管单元网格列表服务资源",
+        "totalCount": 242,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 242
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市公共厕所信息查询接口",
+        "totalCount": 66,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 66
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市转运站信息查询接口",
+        "totalCount": 25,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市行政审批局",
+    "totalCount": 445013,
+    "data": [
+      {
+        "sourceName": "行政区划代码获取接口",
+        "totalCount": 402751,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 401296
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1405
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 16
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "业务提交人验证接口",
+        "totalCount": 41453,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 39974
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 547
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 495
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 321
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 47
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 45
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 17
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "基层人员信息维护接口",
+        "totalCount": 391,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 322
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 32
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "网点信息维护",
+        "totalCount": 383,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 360
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市上报办件信息查询接口",
+        "totalCount": 34,
+        "data": [
+          {
+            "applicantDeptName": "苏州市文化广电和旅游局",
+            "count": 30
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "中介服务事项信息获取接口",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市气象局",
+    "totalCount": 310896,
+    "data": [
+      {
+        "sourceName": "一周天气预报信息",
+        "totalCount": 278782,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 87670
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 52715
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 50406
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 37775
+          },
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 29092
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 21060
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 27
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州天气预警信号",
+        "totalCount": 32051,
+        "data": [
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 28676
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 2115
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 814
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 315
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 81
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "天气预警信号",
+        "totalCount": 63,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 63
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省公安厅",
+    "totalCount": 153522,
+    "data": [
+      {
+        "sourceName": "省平台_省内常住人口户籍信息查询",
+        "totalCount": 153267,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 153267
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_公民基本信息查询",
+        "totalCount": 255,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 251
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "教育部",
+    "totalCount": 137707,
+    "data": [
+      {
+        "sourceName": "中职是否在校学生核查",
+        "totalCount": 136948,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 136466
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 441
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 16
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "中小学学籍信息查询",
+        "totalCount": 635,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 417
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 73
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 37
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 33
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 26
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 16
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "留学人员学历认证信息查询接口",
+        "totalCount": 122,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 63
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 52
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "高校学历姓名及证书编号查询",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "教育部_高校学籍姓名及证件号码查询",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市统计局",
+    "totalCount": 129304,
+    "data": [
+      {
+        "sourceName": "苏州市国民经济主要指标",
+        "totalCount": 79120,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 79098
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "苏州市住房和城乡建设局",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市国民经济主要指标列表",
+        "totalCount": 50184,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 50177
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市残疾人联合会",
+    "totalCount": 49722,
+    "data": [
+      {
+        "sourceName": "辅具适配机构列表查询接口",
+        "totalCount": 28791,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 28782
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 9
+          }
+        ]
+      },
+      {
+        "sourceName": "检索职业培训详细信息",
+        "totalCount": 17751,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 17749
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人辅助器具目录查询接口",
+        "totalCount": 724,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 712
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人辅助器具类别查询接口",
+        "totalCount": 546,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 543
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "评残机构信息查询接口",
+        "totalCount": 504,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 472
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 24
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人证管理接口",
+        "totalCount": 426,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 407
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 17
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人证查询接口",
+        "totalCount": 384,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 186
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 138
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 48
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾儿童基本康复服务办件过程及结果共享接",
+        "totalCount": 323,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 210
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 113
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾儿童基本康复意向机构获取接口",
+        "totalCount": 135,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 127
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人辅助器具适配服务办件过程及结果共享",
+        "totalCount": 82,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 69
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人证申请接口",
+        "totalCount": 14,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "sourceName": "获取职业培训列表",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人职业培训报名过程及结果共享接口",
+        "totalCount": 10,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人求职登记接口",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人职业培训报名接口",
+        "totalCount": 5,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾儿童基本康复服务申请接口",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人辅助器具适配服务接口",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人证管理办件过程结果共享接口",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "残疾人求职登记办件过程及结果共享接口",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市卫生健康委员会",
+    "totalCount": 48520,
+    "data": [
+      {
+        "sourceName": "死亡医学证明",
+        "totalCount": 48042,
+        "data": [
+          {
+            "applicantDeptName": "苏州市民政局",
+            "count": 47729
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 212
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 92
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "吴中区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "出生医学证明",
+        "totalCount": 478,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 143
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 116
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 90
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 80
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 49
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市民政局",
+    "totalCount": 42603,
+    "data": [
+      {
+        "sourceName": "火化信息",
+        "totalCount": 41079,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 41079
+          }
+        ]
+      },
+      {
+        "sourceName": "养老机构信息列表",
+        "totalCount": 514,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 461
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 23
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 17
+          },
+          {
+            "applicantDeptName": "苏州市统计局",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "sourceName": "老年人生活能力评估申请接口",
+        "totalCount": 481,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 204
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 145
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 73
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 51
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "老年人优待证办理接口",
+        "totalCount": 405,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 197
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 142
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 40
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "太仓市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "低保状态根据身份证和年月查询",
+        "totalCount": 75,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 66
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "获取优待证编号接口",
+        "totalCount": 16,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "老年人优待证办件过程及结果获取接口",
+        "totalCount": 16,
+        "data": [
+          {
+            "applicantDeptName": "常熟市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "老年人优待证发证状态更新",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "老年人优待证办理数据共享接口",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "获取社区代码接口",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市发展和改革委员会",
+    "totalCount": 26796,
+    "data": [
+      {
+        "sourceName": "法人综合信用评价信息",
+        "totalCount": 12354,
+        "data": [
+          {
+            "applicantDeptName": "苏州市政府外事办公室",
+            "count": 12171
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 79
+          },
+          {
+            "applicantDeptName": "工业园区",
+            "count": 61
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 19
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "苏州市医疗保障局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "社会法人严重失信黑名单",
+        "totalCount": 8895,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8867
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "苏州市工业和信息化局",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州市医疗保障局",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "法人双公示行政处罚名单",
+        "totalCount": 891,
+        "data": [
+          {
+            "applicantDeptName": "苏州市财政局",
+            "count": 838
+          },
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 31
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 14
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单(安全生产)",
+        "totalCount": 834,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 615
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 68
+          },
+          {
+            "applicantDeptName": "苏州市科学技术局",
+            "count": 42
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 39
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 32
+          },
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州海关",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单(拖欠农民工工资)",
+        "totalCount": 727,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 687
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 14
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "苏州市卫生健康委员会",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单（法人行政处罚）",
+        "totalCount": 700,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 698
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩红名单（法人海关高级认证）",
+        "totalCount": 647,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 642
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单（海关失信认证企业）",
+        "totalCount": 633,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 625
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单(重大税收违法案件)",
+        "totalCount": 622,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 599
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "社会法人诚实守信红名单",
+        "totalCount": 195,
+        "data": [
+          {
+            "applicantDeptName": "苏州市医疗保障局",
+            "count": 166
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "法人双公示行政处罚信用修复名单",
+        "totalCount": 70,
+        "data": [
+          {
+            "applicantDeptName": "苏州市司法局",
+            "count": 22
+          },
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 22
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州市医疗保障局",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩黑名单（工商吊销）",
+        "totalCount": 60,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 34
+          },
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "法人双公示行政处罚",
+        "totalCount": 57,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 21
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 2
+          },
+          {
+            "applicantDeptName": "苏州市医疗保障局",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "双公示行政许可",
+        "totalCount": 48,
+        "data": [
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 25
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 8
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "自然人安全生产领域黑名单",
+        "totalCount": 29,
+        "data": [
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "法人安全生产领域黑名单",
+        "totalCount": 21,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 13
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "国家联合奖惩红名单（A级纳税人）",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "企信通接口",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "黑名单接口",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省大数据管理中心",
+    "totalCount": 4840,
+    "data": [
+      {
+        "sourceName": "省平台_法人信息更新查询接口",
+        "totalCount": 3163,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 3163
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_苏服码_二维码核验接口信息_二维码核验接口",
+        "totalCount": 539,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 275
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 264
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_苏服码_码验证路由服务",
+        "totalCount": 374,
+        "data": [
+          {
+            "applicantDeptName": "相城区",
+            "count": 374
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_市场主体信息含个体工商户_",
+        "totalCount": 232,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 232
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_死亡信息查询_",
+        "totalCount": 221,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 211
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_苏服码资源_电子证照数据查询",
+        "totalCount": 117,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 117
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_苏服码授权发起接口",
+        "totalCount": 89,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 89
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_苏服码_授权发起接口信息_授权发起接口",
+        "totalCount": 64,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 64
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_个体经营者信息_",
+        "totalCount": 14,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_执行事务合伙人法定代表人信息_",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "苏州市行政审批局",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_国办下发健康码信息查询",
+        "totalCount": 11,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_食品经营许可证_电子证照_",
+        "totalCount": 4,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "大数据管理局",
+    "totalCount": 2416,
+    "data": [
+      {
+        "sourceName": "苏州市行政区划",
+        "totalCount": 2396,
+        "data": [
+          {
+            "applicantDeptName": "高新区",
+            "count": 2353
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 10
+          },
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "苏州市工业和信息化局",
+            "count": 9
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "苏州市应急管理局",
+            "count": 5
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "苏州市市场监督管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州电子地图彩色版",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市2017年影像图",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市体育局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市2013年影像图",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市司法局",
+    "totalCount": 1179,
+    "data": [
+      {
+        "sourceName": "调解区县接口getTjInfo",
+        "totalCount": 682,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 319
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 234
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 116
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 7
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "调解区县接口getTjCount",
+        "totalCount": 497,
+        "data": [
+          {
+            "applicantDeptName": "姑苏区",
+            "count": 390
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 45
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 43
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省卫生健康委员会",
+    "totalCount": 884,
+    "data": [
+      {
+        "sourceName": "省平台_生育登记信息查询",
+        "totalCount": 831,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 815
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 15
+          },
+          {
+            "applicantDeptName": "常熟市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_生育登记数据提交",
+        "totalCount": 53,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 34
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 19
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "工业园区",
+    "totalCount": 566,
+    "data": [
+      {
+        "sourceName": "苏州工业园区公积金缴存地校验人员信息-测试",
+        "totalCount": 323,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 323
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州工业园区公积金缴存地核验反馈提取金额-测试",
+        "totalCount": 70,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 70
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州工业园区公积金缴存地接受全部信息-测试",
+        "totalCount": 39,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 39
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金结清回执信息接口yd06-2测试",
+        "totalCount": 31,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 31
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金开具证明申请接口yd01-测试",
+        "totalCount": 23,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 23
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金回执管理信息接口yd05-2测试",
+        "totalCount": 23,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 23
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金结清回执结清信息接口yd06-2",
+        "totalCount": 20,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 20
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金注销证明注销接口yd04-1测试",
+        "totalCount": 19,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 19
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州园区公积金开具证明查询接口yd02-测试",
+        "totalCount": 18,
+        "data": [
+          {
+            "applicantDeptName": "江苏省政务服务管理办公室",
+            "count": 18
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市体育局",
+    "totalCount": 443,
+    "data": [
+      {
+        "sourceName": "多功能运动场",
+        "totalCount": 290,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 288
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "体育公园",
+        "totalCount": 93,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 92
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "全民健身大课堂",
+        "totalCount": 37,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 36
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "全民健身活动中心",
+        "totalCount": 10,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 6
+          },
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 3
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "体育中心",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "街道乡镇文体中心",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "健身步道",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "晨晚练点",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "公益社会体育指导员",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "sourceName": "健身路径",
+        "totalCount": 1,
+        "data": [
+          {
+            "applicantDeptName": "苏州市大数据管理局",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省政务服务管理办公室",
+    "totalCount": 300,
+    "data": [
+      {
+        "sourceName": "省平台_缴存地返回提取结果信息接口",
+        "totalCount": 285,
+        "data": [
+          {
+            "applicantDeptName": "苏州市住房公积金管理中心",
+            "count": 285
+          }
+        ]
+      },
+      {
+        "sourceName": "省平台_一般纳税人查询",
+        "totalCount": 15,
+        "data": [
+          {
+            "applicantDeptName": "吴中区",
+            "count": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市农业农村局",
+    "totalCount": 299,
+    "data": [
+      {
+        "sourceName": "苏州市耕地轮作休耕补贴信息",
+        "totalCount": 299,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 152
+          },
+          {
+            "applicantDeptName": "相城区",
+            "count": 126
+          },
+          {
+            "applicantDeptName": "高新区",
+            "count": 21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "吴江区",
+    "totalCount": 290,
+    "data": [
+      {
+        "sourceName": "综合执法-权力清单事项信息",
+        "totalCount": 45,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 45
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-案件流程表",
+        "totalCount": 43,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 43
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-行政处罚案件信息",
+        "totalCount": 33,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 33
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-案件主表",
+        "totalCount": 31,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 31
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-自由裁量明细表",
+        "totalCount": 19,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 19
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-自由裁量",
+        "totalCount": 17,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 17
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-案件用时",
+        "totalCount": 16,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 16
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-角色表",
+        "totalCount": 14,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 14
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-苏州-双随机案件信息",
+        "totalCount": 13,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 13
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-用户表",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 12
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-执法企业信息",
+        "totalCount": 11,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-基础条线信息",
+        "totalCount": 10,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-基础数据字典表",
+        "totalCount": 10,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 10
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-部门表",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-执法院人员信息",
+        "totalCount": 5,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "综合执法-苏州市重点监管企业信息",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "太仓市",
+    "totalCount": 177,
+    "data": [
+      {
+        "sourceName": "权力清单事项信息表",
+        "totalCount": 36,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 36
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州-双随机案件信息表",
+        "totalCount": 27,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 27
+          }
+        ]
+      },
+      {
+        "sourceName": "审批流任务表",
+        "totalCount": 22,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 22
+          }
+        ]
+      },
+      {
+        "sourceName": "案件主表",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "执法人员信息表",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 8
+          }
+        ]
+      },
+      {
+        "sourceName": "部门表",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "自由裁量明细表",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "案件用时",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "执法企业信息表",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "审批流日志",
+        "totalCount": 7,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "sourceName": "行政处罚案件信息表",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "自由裁量",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "案件移交表",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "案件流程表",
+        "totalCount": 6,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 6
+          }
+        ]
+      },
+      {
+        "sourceName": "用户表",
+        "totalCount": 5,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "sourceName": "角色表",
+        "totalCount": 4,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "sourceName": "苏州市企业黑名单信息表",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "基础条线信息表",
+        "totalCount": 3,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "sourceName": "基础数据表",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市自然资源和规划局",
+    "totalCount": 114,
+    "data": [
+      {
+        "sourceName": "永久基本农田划定选择服务接口",
+        "totalCount": 114,
+        "data": [
+          {
+            "applicantDeptName": "苏州市农业农村局",
+            "count": 89
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 20
+          },
+          {
+            "applicantDeptName": "张家港市",
+            "count": 4
+          },
+          {
+            "applicantDeptName": "苏州市水务局",
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "苏州市中级人民法院",
+    "totalCount": 56,
+    "data": [
+      {
+        "sourceName": "破产信息",
+        "totalCount": 56,
+        "data": [
+          {
+            "applicantDeptName": "工业园区",
+            "count": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "市场监督管理总局",
+    "totalCount": 27,
+    "data": [
+      {
+        "sourceName": "企业基本信息查询接口服务",
+        "totalCount": 25,
+        "data": [
+          {
+            "applicantDeptName": "太仓市",
+            "count": 12
+          },
+          {
+            "applicantDeptName": "昆山市",
+            "count": 11
+          },
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "sourceName": "企业基本信息验证接口",
+        "totalCount": 2,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省人力资源和社会保障厅",
+    "totalCount": 23,
+    "data": [
+      {
+        "sourceName": "省平台_社会保障卡基础信息查询",
+        "totalCount": 23,
+        "data": [
+          {
+            "applicantDeptName": "张家港市",
+            "count": 23
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "高新区",
+    "totalCount": 12,
+    "data": [
+      {
+        "sourceName": "案件主表",
+        "totalCount": 12,
+        "data": [
+          {
+            "applicantDeptName": "苏州市公安局",
+            "count": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "国家卫计委",
+    "totalCount": 9,
+    "data": [
+      {
+        "sourceName": "死亡医学证明查询",
+        "totalCount": 9,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "工信部",
+    "totalCount": 8,
+    "data": [
+      {
+        "sourceName": "省平台_行程核验查询服务",
+        "totalCount": 8,
+        "data": [
+          {
+            "applicantDeptName": "昆山市",
+            "count": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "providerDeptName": "江苏省住房和城乡建设厅",
+    "totalCount": 4,
+    "data": [
+      {
+        "sourceName": "省平台_工程设计资质证书_电子证照_",
+        "totalCount": 4,
+        "data": [
+          {
+            "applicantDeptName": "吴江区",
+            "count": 4
+          }
+        ]
+      }
+    ]
+  }
+]

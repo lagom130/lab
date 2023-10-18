@@ -1,0 +1,370 @@
+{
+  "funds": [
+    {
+      "code": "420102",
+      "name": "天弘永利债券B",
+      "hold_amount": 120344,
+      "build_cost": 1.2463,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },
+    {
+      "code": "011102",
+      "name": "天弘中证光伏产业指数A",
+      "label": ["光伏"],
+      "hold_amount": 1561,
+      "build_cost": 1.2041,
+      "build_complete": true
+    },{
+      "code": "014517",
+      "name": "华夏30天滚动持有短债债券A",
+      "hold_amount": 47083.97,
+      "build_cost": 1.4391,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },{
+      "code": "012769",
+      "name": "华夏中证动漫游戏ETF连接C",
+      "hold_amount": 2851,
+      "build_cost": 1.4391,
+      "build_complete": true
+    },
+    {
+      "code": "501205",
+      "name": "鹏华创新未来18个月封闭混合",
+      "hold_amount": 580,
+      "build_cost": 1.0000,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "010214",
+      "name": "中欧互联网先锋混合C",
+      "label": ["互联网"],
+      "hold_amount": 2402,
+      "build_cost": 1.1478,
+      "build_complete": true
+    },
+    {
+      "code": "004812",
+      "name": "中欧先进制造股票A",
+      "label": ["科技", "新能源", "锂电", "光伏"],
+      "hold_amount": 2794,
+      "build_cost": 3.5242,
+      "build_complete": true
+    },
+    {
+      "code": "003096",
+      "name": "中欧医疗健康混合C",
+      "label": ["医疗"],
+      "hold_amount": 2264,
+      "build_cost": 3.2977,
+      "build_complete": true
+    },
+    {
+      "code": "009776",
+      "name": "中欧阿尔法混合A",
+      "label": ["科技", "新能源", "锂电", "光伏"],
+      "hold_amount": 1924,
+      "build_cost": 1.1625,
+      "build_complete": true
+    },
+    {
+      "code": "501208",
+      "name": "中欧创新未来18个月封闭混合",
+      "hold_amount": 943,
+      "build_cost": 1.0000,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "011162",
+      "name": "博时港股通领先趋势混合A",
+      "label": ["港股", "混合"],
+      "hold_amount": 3169,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "010994",
+      "name": "博时创新经济混合A-杀鸡1130",
+      "hold_amount": 2498,
+      "label": ["混合"],
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "011221",
+      "name": "南方匠心优选股票C",
+      "label": ["白酒", "混合"],
+      "hold_amount": 2245,
+      "build_cost": 1.0431,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "009705",
+      "name": "南方景气驱动混合C",
+      "label": ["混合"],
+      "hold_amount": 3374,
+      "build_cost": 1.0431,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "009983",
+      "name": "永赢港股通品质生活慧选混合",
+      "label": ["港股", "混合"],
+      "hold_amount": 3404,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "012407",
+      "name": "永赢长远价值混合C",
+      "label": ["混合"],
+      "hold_amount": 832,
+      "build_cost": 1.000,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },
+    {
+      "code": "003397",
+      "name": "银华体育文化灵活配置混合",
+      "label": ["混合"],
+      "hold_amount": 3773,
+      "build_cost": 1.7900,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "011400",
+      "name": "汇添富数字未来混合C",
+      "hold_amount": 2424,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "501206",
+      "name": "汇添富创新未来18个月封闭混合",
+      "hold_amount": 872,
+      "build_cost": 1.0000,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "005043",
+      "name": "国寿安保健康科学混合A",
+      "label": ["医疗"],
+      "hold_amount": 1238,
+      "build_cost": 1.8701,
+      "build_complete": true
+    },
+    {
+      "code": "000828",
+      "name": "泰达转型机遇股票A",
+      "hold_amount": 2469,
+      "build_cost": 3.8418,
+      "build_complete": true
+    },
+    {
+      "code": "010135",
+      "name": "泰达高研发6个月持有混合A",
+      "hold_amount": 890,
+      "build_cost": 1.5204,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },
+    {
+      "code": "010849",
+      "name": "易方达竞争优势企业混合C",
+      "hold_amount": 1678,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "011609",
+      "name": "易方达科创板50ETF联接C",
+      "hold_amount": 3875,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "012842",
+      "name": "易方达中证军工(LOF)C",
+      "hold_amount": 3735,
+      "build_cost": 1.5903,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },
+    {
+      "code": "012414",
+      "name": "招商中证白酒指数(LOF)C",
+      "label": ["白酒", "消费"],
+      "hold_amount": 6902,
+      "build_cost": 1.5395,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "012417",
+      "name": "招商国证生物医药指数(LOF)C",
+      "label": ["医疗"],
+      "hold_amount": 4272,
+      "build_cost": 0.8306,
+      "build_complete": true
+    },
+    {
+      "code": "002272",
+      "name": "新华科技创新主题灵活配置混合",
+      "hold_amount": 2388,
+      "build_cost": 1.9446,
+      "build_complete": true
+    },
+    {
+      "code": "002083",
+      "name": "新华鑫动力灵活配置混合A",
+      "hold_amount": 3194,
+      "build_cost": 3.2643,
+      "build_complete": true
+    },
+    {
+      "code": "005669",
+      "name": "前海开源公用事业行业股票",
+      "hold_amount": 2331,
+      "build_cost": 3.0831,
+      "build_complete": true
+    },
+    {
+      "code": "501207",
+      "name": "华夏创新未来18个月封闭混合",
+      "hold_amount": 1052,
+      "build_cost": 1.0000,
+      "build_complete": true,
+      "dac": false
+    },
+    {
+      "code": "270002",
+      "name": "广发稳健增长混合A",
+      "hold_amount": 738,
+      "build_cost": 1.7322,
+      "build_complete": true,
+      "dac": false,
+      "analysis": false
+    },
+    {
+      "code": "005911",
+      "name": "广发双擎升级混合A",
+      "hold_amount": 1698,
+      "build_cost": 3.6976,
+      "build_complete": true
+    },
+    {
+      "code": "004857",
+      "name": "广发中证全指建筑材料指数C",
+      "hold_amount": 838,
+      "build_cost": 1.3504,
+      "build_complete": true
+    },
+    {
+      "code": "007872",
+      "name": "金信稳健策略灵活配置混合",
+      "hold_amount": 5286,
+      "build_cost": 2.2350,
+      "build_complete": true
+    },
+    {
+      "code": "519674",
+      "name": "银河创新成长混合A",
+      "hold_amount": 3699,
+      "build_cost": 8.1092,
+      "build_complete": true
+    },
+    {
+      "code": "400015",
+      "name": "东方新能源汽车混合",
+      "hold_amount": 3055,
+      "build_cost": 4.6920,
+      "build_complete": true
+    },
+    {
+      "code": "002190",
+      "name": "农银新能源主题",
+      "hold_amount": 3221,
+      "build_cost": 4.5582,
+      "build_complete": true
+    },
+    {
+      "code": "006600",
+      "name": "人保沪深300指数",
+      "hold_amount": 4855,
+      "build_cost": 1.61,
+      "build_complete": true
+    },
+    {
+      "code": "320007",
+      "name": "诺安成长混合",
+      "hold_amount": 4249,
+      "build_cost": 2.0565,
+      "build_complete": true
+    },
+
+
+
+
+
+    {
+      "code": "010243",
+      "name": "平安稳健增长混合C",
+      "hold_amount": 1522,
+      "build_cost": 1.0000,
+      "build_complete": true
+    },
+    {
+      "code": "000362",
+      "name": "国泰聚信价值优势混合A",
+      "hold_amount": 3153,
+      "build_cost": 3.0260,
+      "build_complete": true,
+      "target_complete": 1
+    },
+
+    {
+      "code": "010004",
+      "name": "景顺长城电子信息产业股票C",
+      "hold_amount": 1177,
+      "build_cost": 1.2137,
+      "build_complete": true,
+      "target_complete": 1
+    },
+    {
+      "code": "011329",
+      "name": "景顺长城新能源产业股票C",
+      "hold_amount": 1621,
+      "build_cost": 1.6521,
+      "build_complete": true,
+      "target_complete": 2
+    },
+    {
+      "code": "010149",
+      "name": "浙商智选经济动能混合C",
+      "hold_amount": 1846,
+      "build_cost": 1.0000,
+      "build_complete": true
+    }
+  ],
+  "spider_sleep_time": 3,
+  "basic_step": 40,
+  "basic_dac_step": 40,
+  "basic_build_step": 120,
+  "basic_build_big_step": 500,
+  "basic_gr": 2,
+  "bad_stop_long_bias": 0.08,
+  "good_stop_long_bias": 0.12,
+  "target_gr": 30
+}

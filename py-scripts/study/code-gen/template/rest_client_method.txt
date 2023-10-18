@@ -1,0 +1,4 @@
+
+### {method_name}
+### {method_desc}
+{method_type} http://{test_host}{root_path}{path}

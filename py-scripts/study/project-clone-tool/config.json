@@ -1,0 +1,121 @@
+{
+  "replace_file_types": [
+    "json",
+    "js",
+    "css",
+    "html",
+    "vue"
+  ],
+  "original_project": {
+    "root_path": "E:\\DataMiddle-DevelopServicePortal\\devsvc-web",
+    "block_list": [
+      "\\node_modules"
+    ]
+  },
+  "target_projects": [
+    {
+      "root_path": "E:\\DataMiddle-DevelopServicePortal\\data-aggr-web",
+      "allow_list": [],
+      "replace_dir_list": [
+        "\\client",
+        "\\server"
+      ],
+      "replace_dict": {
+        "devsvc-web": "data-aggr-web"
+      },
+      "replace_file_list": [
+        {
+          "path": "\\server\\init.js",
+          "replace_dict": {
+            "500001001": "500001011"
+          }
+        },
+        {
+          "path": "\\client\\router\\index.js",
+          "replace_dict": {
+            "redirect: '/home'": "redirect: '/projectManage'",
+            "component: home,": "component: home,\n                    redirect: '/projectManage',"
+          }
+        }
+      ]
+    },
+    {
+      "root_path": "E:\\DataMiddle-DevelopServicePortal\\data-assets-web",
+      "allow_list": [],
+      "replace_dir_list": [
+        "\\client",
+        "\\server"
+      ],
+      "replace_dict": {
+        "devsvc-web": "data-assets-web"
+      },
+      "replace_file_list": [
+        {
+          "path": "\\server\\init.js",
+          "replace_dict": {
+            "500001001": "500001012"
+          }
+        },
+        {
+          "path": "\\client\\router\\index.js",
+          "replace_dict": {
+            "redirect: '/home'": "redirect: '/projectManage'",
+            "component: home,": "component: home,\n                    redirect: '/projectManage',"
+          }
+        }
+      ]
+    },
+    {
+      "root_path": "E:\\DataMiddle-DevelopServicePortal\\data-analysis-web",
+      "allow_list": [],
+      "replace_dir_list": [
+        "\\client",
+        "\\server"
+      ],
+      "replace_dict": {
+        "devsvc-web": "data-analysis-web"
+      },
+      "replace_file_list": [
+        {
+          "path": "\\server\\init.js",
+          "replace_dict": {
+            "500001001": "500001013"
+          }
+        },
+        {
+          "path": "\\client\\router\\index.js",
+          "replace_dict": {
+            "redirect: '/home'": "redirect: '/projectManage'",
+            "component: home,": "component: home,\n                    redirect: '/projectManage',"
+          }
+        }
+      ]
+    },
+    {
+      "root_path": "E:\\DataMiddle-DevelopServicePortal\\dmiddvisual-web",
+      "allow_list": [],
+      "replace_dir_list": [
+        "\\client",
+        "\\server"
+      ],
+      "replace_dict": {
+        "devsvc-web": "dmiddvisual-web"
+      },
+      "replace_file_list": [
+        {
+          "path": "\\server\\init.js",
+          "replace_dict": {
+            "500001001": "500001014"
+          }
+        },
+        {
+          "path": "\\client\\router\\index.js",
+          "replace_dict": {
+            "redirect: '/home'": "redirect: '/projectManage'",
+            "component: home,": "component: home,\n                    redirect: '/projectManage',"
+          }
+        }
+      ]
+    }
+  ]
+}

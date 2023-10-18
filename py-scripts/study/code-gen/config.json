@@ -1,0 +1,15 @@
+{
+  "api_center_host": "api-center.wingconn.cn",
+  "api_center_cookie": "_yapi_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQ2OCwiaWF0IjoxNjM4NzU5MTAwLCJleHAiOjE2MzkzNjM5MDB9.iz-EL59IJn6GzVzRJPibeDQ3qjIE2RnA0LKziQEk3Xc; _yapi_uid=468",
+  "cat_id": "4448",
+  "package": "com.wingconn.biz.mgt",
+  "class": "CoMsgVisualization",
+  "class_desc": "协作消息可视化",
+  "root_path": "/coMsgVisualization",
+  "local_host": "localhost:8871",
+  "actual_host": "bizco-mgt-service:8871",
+
+  "visualization": true,
+  "visualization_host": "bop.ztfw.dev.wingconn.com",
+  "visualization_cookie": "cna=3OcGGL3gAm4CAXVS24IcMPuH; opsSessionMapId=eyJ1c2VySWQiOjEsImZ1bGxOYW1lIjoiIiwidXNlcm5hbWUiOiJhZG1pbiIsImV4cGlyeV9pbiI6MTYzODg1ODUyNjU4NX0=.MTFkMmZmYWU2YzIwOGFjMWFiYzFhZWQ5YWMxZGI2N2VkZDI0NDkyNGMxZGUwOGRjY2U4MmMwZmVkNzNiZmM1Zg=="
+}

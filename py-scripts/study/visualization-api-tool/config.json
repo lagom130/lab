@@ -1,0 +1,82 @@
+{
+  "host": "bop.ztfw.dev.wingconn.com",
+  "cookie": "cna=3OcGGL3gAm4CAXVS24IcMPuH; opsSessionMapId=eyJ1c2VySWQiOjEsImZ1bGxOYW1lIjoiIiwidXNlcm5hbWUiOiJhZG1pbiIsImV4cGlyeV9pbiI6MTYzODUxODM2MDc3Mn0=.NjVhMWVmNTIzMDlmZDZmMWU2ZTk4OWVjODY0MTc1Nzg5M2FiMTQyMjcwMmUxYTkxOWUzZGYwZjE0ZGU4NjU0NA==",
+  "api_list": [
+    {
+      "api_name":"事项-事项总数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/type"
+    },
+    {
+      "api_name":"事项-个人事项数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/type=PERSON"
+    },
+    {
+      "api_name":"事项-企业事项数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/type=ENTERPRISE"
+    },
+    {
+      "api_name":"事项-基础事项数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/type=UNIT"
+    },
+    {
+      "api_name":"事项-联办事项数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/type+JOINT"
+    },
+    {
+      "api_name":"事项-事项主题分布情况",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/distribution/theme?type="
+    },
+    {
+      "api_name":"事项-各部门事项数排名",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/rank/department?view=STATUS&type=UNIT"
+    },
+    {
+      "api_name":"事项-总览-各部门事项数排名",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matter/rank/department?view=SERVICE_TARGET&type=UNIT"
+    },
+    {
+      "api_name":"事项-实例总数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/distribution/type"
+    },
+    {
+      "api_name":"事项-基础事项实例数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/distribution/type?type=UNIT"
+    },
+    {
+      "api_name":"事项-联办事项实例数",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/distribution/type?type=JOINT"
+    },
+    {
+      "api_name":"事项-实例月度趋势情况",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/trend/month"
+    },
+    {
+      "api_name":"事项-实例今日新增(今日总量、新增业务)",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/dynamic/today?type=START"
+    },
+    {
+      "api_name":"事项-总览-实例今日完成(完成业务)",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/dynamic/today?type=END"
+    },
+    {
+      "api_name":"事项-实例今日较昨日",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/dynamic/today?type=COMPARE"
+    },
+    {
+      "api_name":"事项-实例今日热门事项",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/dynamic/today/hot?size=4"
+    },
+    {
+      "api_name":"事项-各部门事项实例数排名",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/department/rank?view=STATUS&time="
+    },
+    {
+      "api_name":"事项-总览-各部门事项实例数排名",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/department/rank?view=TOTAL&time="
+    },
+    {
+      "api_name":"事项-实例状态分布",
+      "api_url": "http://bizco-mgt-service:8871/CollaborationMgtService/matterVisualization/matterInstance/distribution/status"
+    }
+  ]
+}

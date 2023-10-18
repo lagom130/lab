@@ -1,0 +1,22 @@
+
+    /**
+     * {method_desc}
+     * {input_desc}
+     * @return Response
+     */
+    @{method_type}
+    @Path("{path}")
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response {method_name}({controller_input}){{
+        try {{
+{input_check}
+            return service.{method_name}({service_input});
+        }} catch (Exception e) {{
+            log.error(EFKUtils.buildExceptionLogJson(e, log.getName()), e);
+            return Response.status(Response.Status.BAD_REQUEST)
+                    .entity(ErrorResultTO.createFailInstance(ErrorCodeEnum.INTERNAL_ERROR.getErrorCode(),
+                            ErrorCodeEnum.INTERNAL_ERROR.getErrorInfo()))
+                    .build();
+        }}
+    }}

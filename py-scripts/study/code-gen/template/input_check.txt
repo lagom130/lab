@@ -1,0 +1,6 @@
+            if(StringUtils.isEmpty({param})) {{
+                return Response.status(Response.Status.BAD_REQUEST)
+                        .entity(ErrorResultTO.createFailInstance(ErrorCodeEnum.MISSING_PARAMETER.getErrorCode(),
+                                ErrorCodeEnum.MISSING_PARAMETER.getErrorInfo("{param}")))
+                        .build();
+            }}

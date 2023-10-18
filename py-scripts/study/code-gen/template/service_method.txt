@@ -1,0 +1,10 @@
+
+    /**
+     * {method_desc}
+     * {input_desc}
+     * @return Response
+     */
+    public Response {method_name}({service_input}){{
+        // TODO: {method_name} implementation
+        return null;
+    }}

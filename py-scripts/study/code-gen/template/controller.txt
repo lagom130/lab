@@ -1,0 +1,31 @@
+package {package}.controller;
+
+import {package}.service.{class_name}Service;
+import {package}.to.ErrorCodeEnum;
+import {package}.to.ErrorResultTO;
+import {package}.util.EFKUtils;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+/**
+ * {class_desc}
+ *
+ * @author lujc
+ * @date {date}.
+ */
+@Slf4j
+@Controller
+@Path("{root_path}")
+public class {class_name}Controller {{
+    @Autowired
+    private {class_name}Service service;
+
+{method_arr}
+
+}}
