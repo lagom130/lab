@@ -1,0 +1,9 @@
+server:
+  port: 8800
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/abandon_auth?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: Qwerty!2345
+
