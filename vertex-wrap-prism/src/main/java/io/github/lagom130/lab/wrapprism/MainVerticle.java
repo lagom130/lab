@@ -5,6 +5,7 @@ import io.vertx.core.AbstractVerticle;
 import io.vertx.core.MultiMap;
 import io.vertx.core.Promise;
 import io.vertx.core.Vertx;
+import io.vertx.core.file.OpenOptions;
 import io.vertx.core.impl.logging.Logger;
 import io.vertx.core.impl.logging.LoggerFactory;
 import io.vertx.core.json.JsonObject;
@@ -24,6 +25,28 @@ public class MainVerticle extends AbstractVerticle {
   @Override
   public void start(Promise<Void> startPromise) {
     Router router = Router.router(vertx);
+    router.get("/file/download").handler(BodyHandler.create())
+      .handler(ctx -> {
+        ctx.response()
+        .putHeader("content-type","application/octet-stream;charset=UTF-8")
+        .putHeader("Content-Disposition","attachment; filename=2023101815285485478841.pdf")
+        .putHeader("Server","trp/1.13.6.2[f7c2ed4:1029:3f0a7ab:1032:20220223]")
+        .putHeader("Date","Wed, 18 Oct 2023 08:49:36 GMT")
+        .putHeader("X-Content-Type-Options","nosniff")
+        .putHeader("X-Content-Type-Options","nosniff")
+        .putHeader("X-XSS-Protection","1; mode=block")
+        .putHeader("X-XSS-Protection","1; mode=block")
+        .putHeader("Cache-Control","no-cache, no-store, max-age=0, must-revalidate")
+        .putHeader("Pragma","no-cache")
+        .putHeader("Expires","0")
+        .putHeader("X-Frame-Options","DENY")
+        .putHeader("X-Frame-Options","DENY")
+        .putHeader("X-Application-Context","bluesky-framework-api:6208")
+        .putHeader("Strict-Transport-Security","max-age=63072000; includeSubdomains; preload")
+        .putHeader("Connection","keep-alive")
+        .setChunked(true)
+        .sendFile("E:\\2023101815285485478841.pdf");
+      });
     router.post("/v1/apigw/oauth2/token").handler(BodyHandler.create())
       .handler(ctx -> {
         String clientId = ctx.request().getFormAttribute("client_id");

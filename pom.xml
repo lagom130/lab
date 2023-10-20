@@ -10,15 +10,21 @@
     <packaging>pom</packaging>
 
     <modules>
+        <!-- vert.x experiment modules -->
         <module>vertex-learn</module>
         <module>vertex-wrap-prism</module>
+        <!-- spring cloud alibaba modules -->
         <module>abandon-gateway</module>
+        <module>abandon-auth-server</module>
+        <module>abandon-meta-service</module>
+        <!-- spring cloud alibaba experiment modules -->
         <module>abandon-canary-provider</module>
         <module>abandon-canary-consumer</module>
         <module>abandon-canary-biz</module>
         <module>abandon-canary-account</module>
         <module>abandon-canary-storage</module>
         <module>abandon-canary-order</module>
+        <!-- common modules -->
         <module>common-code-gen</module>
 
     </modules>
