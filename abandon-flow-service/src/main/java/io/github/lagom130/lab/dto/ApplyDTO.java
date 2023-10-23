@@ -11,11 +11,9 @@ import java.util.List;
  */
 @lombok.Data
 public class ApplyDTO {
-    private Integer id;
-    private String code;
     private String service;
     private String type;
-    private String applyId;
+    private String businessId;
     private String condition;
     private List<FlowItem> flow;
 

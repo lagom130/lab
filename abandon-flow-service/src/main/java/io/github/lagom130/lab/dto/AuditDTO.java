@@ -11,6 +11,6 @@ public class AuditDTO {
     private Integer id;
     private String applyId;
 
-    private String operateType;
+    private Boolean pass;
 
 }

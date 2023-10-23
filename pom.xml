@@ -17,6 +17,7 @@
         <module>abandon-gateway</module>
         <module>abandon-auth-server</module>
         <module>abandon-meta-service</module>
+        <module>abandon-flow-service</module>
         <!-- spring cloud alibaba experiment modules -->
         <module>abandon-canary-provider</module>
         <module>abandon-canary-consumer</module>

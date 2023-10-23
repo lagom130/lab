@@ -2,6 +2,10 @@ package io.github.lagom130.lab.controller;
 
 import io.github.lagom130.lab.dto.ApplyDTO;
 import io.github.lagom130.lab.dto.AuditDTO;
+import io.github.lagom130.lab.globalResponse.Result;
+import io.github.lagom130.lab.service.ApplyService;
+import jakarta.annotation.Resource;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -10,10 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class ApplyController {
+    @Resource
+    private ApplyService applyService;
 
-
-    public void apply(ApplyDTO dto) {
-
+    public Result<String> apply(ApplyDTO dto) {
+        return new Result<String>().success(applyService.apply(dto));
     }
 
     public void cancel(ApplyDTO dto) {
