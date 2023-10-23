@@ -1,11 +1,10 @@
-package io.github.lagom130.lab.controller;
+package io.github.lagom130.lab.old.controller;
 
-import io.github.lagom130.lab.dto.ApplyDTO;
-import io.github.lagom130.lab.dto.AuditDTO;
+import io.github.lagom130.lab.old.dto.ApplyDTO;
+import io.github.lagom130.lab.old.dto.AuditDTO;
 import io.github.lagom130.lab.globalResponse.Result;
-import io.github.lagom130.lab.service.ApplyService;
+import io.github.lagom130.lab.old.service.ApplyService;
 import jakarta.annotation.Resource;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
 /**

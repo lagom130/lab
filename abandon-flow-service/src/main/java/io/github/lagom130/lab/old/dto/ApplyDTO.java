@@ -1,4 +1,4 @@
-package io.github.lagom130.lab.dto;
+package io.github.lagom130.lab.old.dto;
 
 import io.github.lagom130.lab.entity.FlowItem;
 

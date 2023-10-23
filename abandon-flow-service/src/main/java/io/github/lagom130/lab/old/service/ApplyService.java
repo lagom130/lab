@@ -1,7 +1,7 @@
-package io.github.lagom130.lab.service;
+package io.github.lagom130.lab.old.service;
 
-import io.github.lagom130.lab.dto.ApplyDTO;
-import io.github.lagom130.lab.dto.AuditDTO;
+import io.github.lagom130.lab.old.dto.ApplyDTO;
+import io.github.lagom130.lab.old.dto.AuditDTO;
 import io.github.lagom130.lab.entity.Apply;
 import io.github.lagom130.lab.entity.Audit;
 import io.github.lagom130.lab.entity.FlowItem;
