@@ -4,6 +4,7 @@ import io.github.lagom130.lab.globalResponse.BizException;
 import io.github.lagom130.lab.leaf.common.Result;
 import io.github.lagom130.lab.leaf.common.Status;
 import io.github.lagom130.lab.service.SnowflakeService;
+import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class LeafController {
 
 //    @Autowired
 //    private SegmentService segmentService;
-    @Autowired
+    @Resource
     private SnowflakeService snowflakeService;
 
 //    @RequestMapping(value = "/api/segment/get/{key}")
