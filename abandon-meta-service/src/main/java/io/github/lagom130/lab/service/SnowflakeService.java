@@ -38,8 +38,6 @@ public class SnowflakeService {
 
     private static final String SNOWFLAKE_WORK_ID_KEY_PREFIX = "snowflake:workId:";
     private static final Long SNOWFLAKE_WORK_ID_KEY_EXPIRE = 1000*60*60*3L;
-    private static final Long SNOWFLAKE_WORK_ID_KEY_EXPIRE_HEART_BEAT = SNOWFLAKE_WORK_ID_KEY_EXPIRE/3;
-
 
     public SnowflakeService(StringRedisTemplate stringRedisTemplate) {
         this.stringRedisTemplate = stringRedisTemplate;
@@ -47,8 +45,8 @@ public class SnowflakeService {
         int workId=-1;
         while (!flag) {
             workId++;
-            String key = SNOWFLAKE_WORK_ID_KEY_PREFIX+"snowflake:workId:"+workId;
-            flag = stringRedisTemplate.opsForValue().setIfAbsent(key, "true", SNOWFLAKE_WORK_ID_KEY_EXPIRE, TimeUnit.MILLISECONDS);
+            String key = SNOWFLAKE_WORK_ID_KEY_PREFIX+workId;
+            flag = Boolean.TRUE.equals(stringRedisTemplate.opsForValue().setIfAbsent(key, "true", SNOWFLAKE_WORK_ID_KEY_EXPIRE, TimeUnit.MILLISECONDS));
         }
         idGen = new SnowflakeIDGenImpl(workId);
         this.workId = workId;
@@ -65,7 +63,7 @@ public class SnowflakeService {
 
     @Scheduled(initialDelay = 100000, fixedRate = 1000*60*60)
     public void heartBeat() {
-        stringRedisTemplate.expire("snowflake:workId:"+workId, SNOWFLAKE_WORK_ID_KEY_EXPIRE, TimeUnit.MILLISECONDS);
-        log.info("snakeflake workId[{}] expire success", workId);
+        stringRedisTemplate.expire(SNOWFLAKE_WORK_ID_KEY_PREFIX+workId, SNOWFLAKE_WORK_ID_KEY_EXPIRE, TimeUnit.MILLISECONDS);
+        log.info("snowflake workId[{}] expire success", workId);
     }
 }
