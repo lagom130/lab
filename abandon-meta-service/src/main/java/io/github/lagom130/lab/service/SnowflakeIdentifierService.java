@@ -23,7 +23,7 @@ public class SnowflakeIdentifierService {
     private int datacenterId = 0;
     private int machineId;
 
-    private static final String SNOWFLAKE_ID_KEY_FORMAT = "snowflake:datacenterId:{}:machineId:{}";
+    private static final String SNOWFLAKE_ID_KEY_FORMAT = "snowflake:datacenterId:%s:machineId:%s";
     private static final Long SNOWFLAKE_WORK_ID_KEY_EXPIRE = 1000*60*60*3L;
 
     public SnowflakeIdentifierService(StringRedisTemplate stringRedisTemplate) {
