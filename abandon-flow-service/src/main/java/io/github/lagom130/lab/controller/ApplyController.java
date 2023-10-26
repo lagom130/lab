@@ -1,7 +1,7 @@
 package io.github.lagom130.lab.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
  * @author lagom
  * @since 2023-10-26
  */
-@Controller
+@RestController
 @RequestMapping("/apply")
 public class ApplyController {
 

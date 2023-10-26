@@ -7,5 +7,5 @@ public class ApplyItem {
     private int auditOrder;
     private int type;
 
-    private List<String> auditIds;
+    private List<Long> auditIds;
 }

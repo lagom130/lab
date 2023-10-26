@@ -1,7 +1,8 @@
-package io.github.lagom130.lab.entity;
+package io.github.lagom130.lab.dto;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
+import io.github.lagom130.lab.entity.ApplyItem;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -16,11 +17,11 @@ import java.util.List;
  * @since 2023-10-26
  */
 @lombok.Data
-public class Apply implements Serializable {
+public class ApplyDto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-      private Long id;
+    private Long id;
 
     private Long applyId;
 
@@ -31,7 +32,6 @@ public class Apply implements Serializable {
     private String bizType;
 
     private Integer status;
-    @TableField(typeHandler = JacksonTypeHandler.class)
     private List<ApplyItem> pipeline;
 
     private LocalDateTime finishedTime;
