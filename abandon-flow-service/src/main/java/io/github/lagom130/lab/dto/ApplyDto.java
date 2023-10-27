@@ -17,7 +17,7 @@ import java.util.List;
 public class ApplyDto {
     private Long applyUser;
 
-    private Long applyUsername;
+    private String applyUsername;
 
     private LocalDateTime appliedTime;
 

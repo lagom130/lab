@@ -18,7 +18,7 @@ public class Audit implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-      private Long id;
+    private Long id;
 
     private Long applyId;
 
@@ -26,9 +26,9 @@ public class Audit implements Serializable {
 
     private AuditTypeEnum type;
 
-    private Long operatorId;
+    private Long operatorUser;
 
-    private String operatorName;
+    private String operatorUsername;
 
     private Boolean pass;
 

@@ -25,7 +25,7 @@ public class Apply implements Serializable {
 
     private Long applyUser;
 
-    private Long applyUsername;
+    private String applyUsername;
 
     private LocalDateTime appliedTime;
 

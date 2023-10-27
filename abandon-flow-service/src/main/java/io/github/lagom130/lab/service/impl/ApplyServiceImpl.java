@@ -14,6 +14,7 @@ import io.github.lagom130.lab.service.IAuditService;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -33,6 +34,7 @@ public class ApplyServiceImpl extends ServiceImpl<ApplyMapper, Apply> implements
     private MetaClient metaClient;
     @Resource
     private IAuditService auditService;
+    @Transactional
     public Long apply(ApplyDto applyDto) {
         Apply apply = new Apply();
         BeanUtils.copyProperties(applyDto, apply);
@@ -47,8 +49,8 @@ public class ApplyServiceImpl extends ServiceImpl<ApplyMapper, Apply> implements
             audit.setApplyId(apply.getId());
             audit.setType(applySlot.getType());
             audit.setAuditOrder(applySlot.getAuditOrder());
-            audit.setOperatorId(auditor.getUserId());
-            audit.setOperatorName(auditor.getUsername());
+            audit.setOperatorUser(auditor.getUserId());
+            audit.setOperatorUsername(auditor.getUsername());
             audit.setId(metaClient.getSnowflakeId());
             return audit;
         }).collect(Collectors.toList());

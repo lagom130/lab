@@ -4,6 +4,8 @@ import io.github.lagom130.lab.dto.ApplyDto;
 import io.github.lagom130.lab.globalResponse.Result;
 import io.github.lagom130.lab.service.IApplyService;
 import jakarta.annotation.Resource;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,8 +23,8 @@ public class ApplyController {
     @Resource
     private IApplyService applyService;
 
-    @RequestMapping("")
-    public Result<Long> apply(ApplyDto applyDto) {
+    @PostMapping("")
+    public Result<Long> apply(@RequestBody ApplyDto applyDto) {
         return new Result<Long>().success(applyService.apply(applyDto));
     }
 
