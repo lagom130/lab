@@ -1,5 +1,7 @@
 package io.github.lagom130.lab.entity;
 
+import io.github.lagom130.lab.enums.AuditTypeEnum;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
@@ -22,13 +24,15 @@ public class Audit implements Serializable {
 
     private Integer auditOrder;
 
-    private Integer type;
+    private AuditTypeEnum type;
 
     private Long operatorId;
 
+    private String operatorName;
+
     private Boolean pass;
 
-    private Integer remark;
+    private String remark;
 
     private LocalDateTime operatedTime;
 }

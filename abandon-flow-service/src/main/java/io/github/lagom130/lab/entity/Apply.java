@@ -2,6 +2,7 @@ package io.github.lagom130.lab.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
+import io.github.lagom130.lab.enums.ApplyStatusEnum;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -20,9 +21,11 @@ public class Apply implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-      private Long id;
+    private Long id;
 
-    private Long applyId;
+    private Long applyUser;
+
+    private Long applyUsername;
 
     private LocalDateTime appliedTime;
 
@@ -30,9 +33,11 @@ public class Apply implements Serializable {
 
     private String bizType;
 
-    private Integer status;
     @TableField(typeHandler = JacksonTypeHandler.class)
-    private List<ApplyItem> pipeline;
+    private List<ApplySlot> slots;
+
+    private Integer nowPointer;
+    private ApplyStatusEnum status;
 
     private LocalDateTime finishedTime;
 }

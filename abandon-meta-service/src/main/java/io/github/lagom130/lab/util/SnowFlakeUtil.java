@@ -7,7 +7,7 @@ package io.github.lagom130.lab.util;
 public class SnowFlakeUtil {
 
     // 起始时间戳
-    private final static long START_STMP = 1480166465631L;
+    private final static long START_STMP = 1696089600000L;
 
     // 每部分的位数
     private final static long SEQUENCE_BIT = 12; // 序列号占用位数
