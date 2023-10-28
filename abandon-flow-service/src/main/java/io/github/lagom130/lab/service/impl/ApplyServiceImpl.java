@@ -1,5 +1,7 @@
 package io.github.lagom130.lab.service.impl;
 
+import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.github.lagom130.lab.client.MetaClient;
 import io.github.lagom130.lab.dto.ApplyDto;
 import io.github.lagom130.lab.entity.Apply;
@@ -11,6 +13,8 @@ import io.github.lagom130.lab.mapper.AuditMapper;
 import io.github.lagom130.lab.service.IApplyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import io.github.lagom130.lab.service.IAuditService;
+import io.github.lagom130.lab.vo.ApplyListVo;
+import io.github.lagom130.lab.vo.ApplyVo;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
@@ -39,7 +43,7 @@ public class ApplyServiceImpl extends ServiceImpl<ApplyMapper, Apply> implements
         Apply apply = new Apply();
         BeanUtils.copyProperties(applyDto, apply);
         apply.setStatus(ApplyStatusEnum.AUDITING);
-        apply.setAppliedTime(LocalDateTime.now());
+        if(apply.getAppliedTime() == null) apply.setAppliedTime(LocalDateTime.now());
         apply.setId(metaClient.getSnowflakeId());
         apply.setNowPointer(0);
         List<ApplySlot> slots = apply.getSlots();
@@ -57,5 +61,17 @@ public class ApplyServiceImpl extends ServiceImpl<ApplyMapper, Apply> implements
         this.save(apply);
         auditService.saveBatch(audits);
         return apply.getId();
+    }
+
+    @Override
+    public ApplyVo getOneById(Long id) {
+        Apply apply = this.getById(id);
+        return new ApplyVo(apply);
+    }
+
+    @Override
+    public List<ApplyListVo> getPage(Integer page, Integer size) {
+        return this.lambdaQuery().select(Apply::getId, Apply::getApplyUsername, Apply::getAppliedTime, Apply::getStatus)
+                .list(new Page<>(page, size)).stream().map(ApplyListVo::new).collect(Collectors.toList());
     }
 }

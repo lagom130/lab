@@ -1,5 +1,8 @@
 package io.github.lagom130.lab.enums;
 
+import com.baomidou.mybatisplus.annotation.EnumValue;
+import com.fasterxml.jackson.annotation.JsonValue;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
@@ -11,6 +14,7 @@ public interface IBaseEnum <T>{
     }
 
     // Get the code of the enum
+    @JsonValue
     default T getCode() {
         return EnumContainer.getEnum(this).getCode();
     }
