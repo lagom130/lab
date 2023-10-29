@@ -12,15 +12,15 @@ import java.util.Map;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author lagom
  * @since 2023-10-26
  */
 @lombok.Data
-@TableName(value = "apply", autoResultMap = true)
-public class Apply implements Serializable {
+@TableName(value = "org_apply", autoResultMap = true)
+public class OrgApply implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -30,6 +30,10 @@ public class Apply implements Serializable {
 
     private String applyUsername;
 
+    private Long applyOrg;
+
+    private String applyOrgName;
+
     private LocalDateTime appliedTime;
 
     private String service;
@@ -37,11 +41,10 @@ public class Apply implements Serializable {
     private String bizType;
 
     @TableField(typeHandler = JacksonTypeHandler.class)
-    private List<ApplySlot> slots;
-
+    private List<OrgApplySlot> slots;
     @TableField(typeHandler = JacksonTypeHandler.class)
     private Map<String, Object> detail;
-
+    
     private Integer nowPointer;
     private ApplyStatusEnum status;
 

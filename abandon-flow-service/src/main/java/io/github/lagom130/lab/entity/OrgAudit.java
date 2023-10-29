@@ -14,19 +14,23 @@ import java.time.LocalDateTime;
  * @since 2023-10-26
  */
 @lombok.Data
-public class Audit implements Serializable {
+public class OrgAudit implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     private Long id;
 
-    private Long applyId;
-
     private String bizType;
+
+    private Long applyId;
 
     private Integer auditOrder;
 
     private AuditTypeEnum type;
+
+    private Long auditOrgId;
+
+    private String auditOrgName;
 
     private Long operatorUser;
 

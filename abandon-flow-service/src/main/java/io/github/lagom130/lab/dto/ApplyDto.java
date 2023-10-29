@@ -11,6 +11,7 @@ import jakarta.validation.constraints.NotNull;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -41,4 +42,6 @@ public class ApplyDto {
     @Valid
     @NotEmpty(message = "审核流程不允许为空")
     private List<ApplySlot> slots;
+
+    private Map<String, Object> detail;
 }

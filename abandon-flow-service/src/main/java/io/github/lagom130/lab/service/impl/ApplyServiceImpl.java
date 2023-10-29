@@ -1,6 +1,5 @@
 package io.github.lagom130.lab.service.impl;
 
-import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.github.lagom130.lab.client.MetaClient;
 import io.github.lagom130.lab.dto.ApplyDto;
@@ -9,7 +8,6 @@ import io.github.lagom130.lab.entity.ApplySlot;
 import io.github.lagom130.lab.entity.Audit;
 import io.github.lagom130.lab.enums.ApplyStatusEnum;
 import io.github.lagom130.lab.mapper.ApplyMapper;
-import io.github.lagom130.lab.mapper.AuditMapper;
 import io.github.lagom130.lab.service.IApplyService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import io.github.lagom130.lab.service.IAuditService;
@@ -51,6 +49,7 @@ public class ApplyServiceImpl extends ServiceImpl<ApplyMapper, Apply> implements
         List<Audit> audits = applySlot.getAuditors().stream().map(auditor -> {
             Audit audit = new Audit();
             audit.setApplyId(apply.getId());
+            audit.setBizType(apply.getBizType());
             audit.setType(applySlot.getType());
             audit.setAuditOrder(applySlot.getAuditOrder());
             audit.setOperatorUser(auditor.getUserId());

@@ -1,14 +1,11 @@
 package io.github.lagom130.lab.vo;
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.github.lagom130.lab.entity.Apply;
 import io.github.lagom130.lab.entity.ApplySlot;
 import io.github.lagom130.lab.enums.ApplyStatusEnum;
 import org.springframework.beans.BeanUtils;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.List;
 

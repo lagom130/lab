@@ -72,6 +72,7 @@ public class AuditServiceImpl extends ServiceImpl<AuditMapper, Audit> implements
                     List<Audit> nextAudits = applySlot.getAuditors().stream().map(auditor -> {
                         Audit nextAudit = new Audit();
                         nextAudit.setApplyId(apply.getId());
+                        nextAudit.setBizType(apply.getBizType());
                         nextAudit.setType(applySlot.getType());
                         nextAudit.setAuditOrder(applySlot.getAuditOrder());
                         nextAudit.setOperatorUser(auditor.getUserId());

@@ -1,7 +1,6 @@
 package io.github.lagom130.lab.controller;
 
 import io.github.lagom130.lab.dto.ApplyDto;
-import io.github.lagom130.lab.entity.Apply;
 import io.github.lagom130.lab.globalResponse.Result;
 import io.github.lagom130.lab.service.IApplyService;
 import io.github.lagom130.lab.vo.ApplyListVo;
