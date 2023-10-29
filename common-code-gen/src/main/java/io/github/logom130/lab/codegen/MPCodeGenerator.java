@@ -11,11 +11,11 @@ import java.util.function.Function;
 
 public class MPCodeGenerator {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://127.0.0.1:3306/abandon_flow?serverTimezone=Asia/Shanghai";
+        String url = "jdbc:mysql://127.0.0.1:3306/abandon_nydus?serverTimezone=Asia/Shanghai";
         String username = "root";
         String password = "Qwerty!2345";
         String author = "lagom";
-        String projectPath = "C://MyProjects\\lab\\abandon-flow-service";
+        String projectPath = "C://MyProjects\\lab\\abandon-nydus-service";
 
         String packageParent = "io.github.lagom130.lab";
         String module = "";
@@ -36,7 +36,7 @@ public class MPCodeGenerator {
                             .pathInfo(Collections.singletonMap(OutputFile.xml, xmlPath)); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
-//                    builder.addExclude("undo_log") // 设置需要生成的表名
+                    builder.addExclude("undo_log") // 设置需要生成的表名
 //                            .addTableSuffix("_tbl")
                     ; // 设置过滤表后缀
                 })
