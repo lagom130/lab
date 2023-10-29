@@ -1,13 +1,18 @@
 package io.github.lagom130.lab.vo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import io.github.lagom130.lab.entity.ApplySlot;
+import io.github.lagom130.lab.enums.ApplyStatusEnum;
 import io.github.lagom130.lab.enums.AuditTypeEnum;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @lombok.Data
 public class AuditDetailVo {
     private Long id;
 
+    private Long applyId;
     private Integer auditOrder;
 
     private AuditTypeEnum type;
@@ -22,5 +27,13 @@ public class AuditDetailVo {
 
     private LocalDateTime operatedTime;
 
-    private ApplyVo applyVo;
+    private Long applyUser;
+    private String applyUsername;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",  timezone = "GMT+8")
+    private LocalDateTime appliedTime;
+    private String service;
+    private String bizType;
+    private List<ApplySlot> slots;
+    private ApplyStatusEnum status;
+    private LocalDateTime finishedTime;
 }

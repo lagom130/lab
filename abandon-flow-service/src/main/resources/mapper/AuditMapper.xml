@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="io.github.lagom130.lab.mapper.AuditMapper">
-
+    <resultMap id="auditDetail" type="io.github.lagom130.lab.vo.AuditDetailVo">
+        <id column="id" property="id"/>
+        <result column="apply_id" property="applyId"/>
+        <result column="type" property="type"/>
+        <result column="operatorUser" property="operator_user"/>
+        <result column="operatorUsername" property="operator_username"/>
+        <result column="pass" property="pass"/>
+        <result column="remark" property="remark"/>
+        <result column="operated_time" property="operatedTime"/>
+        <result column="apply_user" property="applyUser"/>
+        <result column="apply_username" property="applyUsername"/>
+        <result column="applied_time" property="appliedTime"/>
+        <result column="service" property="service"/>
+        <result column="bizType" property="biz_type"/>
+        <result column="slots" property="slots" javaType="java.util.List" jdbcType="OTHER"
+                typeHandler="com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler"/>
+        <result column="status" property="status" javaType="io.github.lagom130.lab.enums.ApplyStatusEnum"
+                typeHandler="com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler"/>
+        <result column="finishedTime" property="finished_time"/>
+    </resultMap>
+    <select id="getAuditDetail" resultMap="auditDetail">
+        select audit.id as id,
+               audit.apply_id as apply_id,
+               audit.type as type,
+               audit.operator_user as operator_user,
+               audit.operator_username as operator_username,
+               audit.pass as pass,
+               audit.remark as remark,
+               audit.operated_time as operated_time,
+               apply.apply_user as apply_user,
+               apply.apply_username as apply_username,
+               apply.applied_time as applied_time,
+               apply.service as service,
+               apply.biz_type as biz_type,
+               apply.slots as slots,
+               apply.status as status,
+               apply.finished_time as finished_time
+        from audit left join apply on audit.apply_id = apply.id
+        where audit.id = #{id}
+    </select>
+    <select id="getAuditDetails" resultMap="auditDetail">
+        select audit.id as id,
+               audit.apply_id as apply_id,
+               audit.type as type,
+               audit.operator_user as operator_user,
+               audit.operator_username as operator_username,
+               audit.pass as pass,
+               audit.remark as remark,
+               audit.operated_time as operated_time,
+               apply.apply_user as apply_user,
+               apply.apply_username as apply_username,
+               apply.applied_time as applied_time,
+               apply.service as service,
+               apply.biz_type as biz_type,
+               apply.slots as slots,
+               apply.status as status,
+               apply.finished_time as finished_time
+        from audit left join apply on audit.apply_id = apply.id
+    </select>
 </mapper>
