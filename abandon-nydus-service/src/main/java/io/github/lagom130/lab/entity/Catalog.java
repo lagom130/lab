@@ -56,9 +56,12 @@ public class Catalog implements Serializable {
 
 
     private String groupIds;
+
     private String groupNames;
 
     private CatalogTypeEnum catalogType;
+
+    private String regionCode;
 
 
 

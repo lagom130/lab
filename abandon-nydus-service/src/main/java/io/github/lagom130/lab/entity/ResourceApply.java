@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
  * @since 2023-10-29
  */
 @lombok.Data
-public class Apply implements Serializable {
+public class ResourceApply implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

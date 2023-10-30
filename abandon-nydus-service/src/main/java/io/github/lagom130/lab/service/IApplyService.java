@@ -1,6 +1,6 @@
 package io.github.lagom130.lab.service;
 
-import io.github.lagom130.lab.entity.Apply;
+import io.github.lagom130.lab.entity.ResourceApply;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author lagom
  * @since 2023-10-29
  */
-public interface IApplyService extends IService<Apply> {
+public interface IApplyService extends IService<ResourceApply> {
 
 }

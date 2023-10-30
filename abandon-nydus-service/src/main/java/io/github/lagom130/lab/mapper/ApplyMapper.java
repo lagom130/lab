@@ -1,6 +1,6 @@
 package io.github.lagom130.lab.mapper;
 
-import io.github.lagom130.lab.entity.Apply;
+import io.github.lagom130.lab.entity.ResourceApply;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author lagom
  * @since 2023-10-29
  */
-public interface ApplyMapper extends BaseMapper<Apply> {
+public interface ApplyMapper extends BaseMapper<ResourceApply> {
 
 }

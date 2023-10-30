@@ -2,6 +2,7 @@ package io.github.lagom130.lab.entity;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
+import io.github.lagom130.lab.enums.CatalogTypeEnum;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -51,4 +52,12 @@ public class Resource implements Serializable {
     private LocalDateTime auditFinishedTime;
 
     private Integer auditWorkDays;
+
+    private String groupIds;
+
+    private String groupNames;
+
+    private CatalogTypeEnum catalogType;
+
+    private String regionCode;
 }
