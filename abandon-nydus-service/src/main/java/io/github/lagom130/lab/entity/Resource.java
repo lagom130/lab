@@ -47,8 +47,6 @@ public class Resource implements Serializable {
     @TableField(typeHandler = JacksonTypeHandler.class)
     private ResourceDetail detail;
 
-    private Long flowId;
-
     private LocalDateTime auditFinishedTime;
 
     private Integer auditWorkDays;

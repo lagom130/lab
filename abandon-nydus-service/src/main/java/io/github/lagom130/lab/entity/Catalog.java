@@ -48,8 +48,6 @@ public class Catalog implements Serializable {
     @TableField(typeHandler = JacksonTypeHandler.class)
     private CatalogDetail detail;
 
-    private Long flowId;
-
     private LocalDateTime auditFinishedTime;
 
     private Integer auditWorkDays;
