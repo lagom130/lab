@@ -1,7 +1,12 @@
 package io.github.lagom130.lab.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.extension.handlers.JacksonTypeHandler;
+import io.github.lagom130.lab.enums.CatalogTypeEnum;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.List;
 
 /**
  * <p>
@@ -11,6 +16,7 @@ import java.time.LocalDateTime;
  * @author lagom
  * @since 2023-10-29
  */
+@lombok.Data
 public class Catalog implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -39,12 +45,21 @@ public class Catalog implements Serializable {
 
     private Boolean auditing;
 
-    private String detail;
+    @TableField(typeHandler = JacksonTypeHandler.class)
+    private CatalogDetail detail;
 
     private Long flowId;
 
     private LocalDateTime auditFinishedTime;
 
     private Integer auditWorkDays;
+
+
+    private String groupIds;
+    private String groupNames;
+
+    private CatalogTypeEnum catalogType;
+
+
 
 }
