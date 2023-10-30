@@ -6,6 +6,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
+import java.util.Optional;
+
 /**
  * @author lujc
  * @date 2023/10/30.
@@ -23,9 +25,12 @@ public class BaseIntercepter implements HandlerInterceptor {
      */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-
+        Long userId = Optional.ofNullable(request.getHeader("user-id")).map(Long::valueOf).orElse(null);
+        String username = Optional.ofNullable(request.getHeader("user-name")).orElse(null);
+        Long orgId = Optional.ofNullable(request.getHeader("org-id")).map(Long::valueOf).orElse(null);
+        String orgName = Optional.ofNullable(request.getHeader("org-name")).orElse(null);
         // 获取请求头中的 单位编号 信息
-        LoginUserUtils.setLoginUser(new LoginUser());
+        LoginUserUtils.setLoginUser(new LoginUser(userId, username, orgId, orgName));
         return true;
     }
 
