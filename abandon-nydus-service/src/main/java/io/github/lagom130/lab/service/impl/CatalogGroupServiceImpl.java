@@ -93,20 +93,18 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
             }
         }
         List<CatalogGroupNodeVO> trees = null;
-        try {
-            Map<Long, List<CatalogGroupSimpleBO>> groupByPid = new HashMap<>();
-            this.getBaseMapper().selectList(
-                    this.lambdaQuery()
-                            .select(CatalogGroup::getId, CatalogGroup::getName, CatalogGroup::getPid),
-                    resultContext ->{
-                        CatalogGroup catalogGroup = resultContext.getResultObject();
-                        List<CatalogGroupSimpleBO> groupItem = groupByPid.getOrDefault(catalogGroup.getPid(), new ArrayList<>());
-                        groupItem.add(new CatalogGroupSimpleBO(catalogGroup));
-                        groupByPid.put(catalogGroup.getPid(), groupItem);
-                    });
-            trees = this.getCatalogGroupChildrenNodes(groupByPid.get(null), groupByPid);
-            return trees;
-        } finally {
+        synchronized(this) {
+            if(!noCaches) {
+                caches = stringRedisTemplate.opsForValue().get("catalog_group::tree");
+                if(caches != null) {
+                    try {
+                        return objectMapper.readValue(caches, objectMapper.getTypeFactory().constructParametricType(List.class, CatalogGroupNodeVO.class));
+                    } catch (JsonProcessingException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            }
+            trees = this.getTree();
             String treeStr = null;
             try {
                 treeStr = objectMapper.writeValueAsString(trees);
@@ -114,7 +112,23 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
                 throw new RuntimeException(e);
             }
             stringRedisTemplate.opsForValue().set("catalog_group::tree", treeStr);
+            return trees;
         }
+
+    }
+
+    private List<CatalogGroupNodeVO> getTree() {
+        Map<Long, List<CatalogGroupSimpleBO>> groupByPid = new HashMap<>();
+        this.getBaseMapper().selectList(
+                this.lambdaQuery()
+                        .select(CatalogGroup::getId, CatalogGroup::getName, CatalogGroup::getPid),
+                resultContext ->{
+                    CatalogGroup catalogGroup = resultContext.getResultObject();
+                    List<CatalogGroupSimpleBO> groupItem = groupByPid.getOrDefault(catalogGroup.getPid(), new ArrayList<>());
+                    groupItem.add(new CatalogGroupSimpleBO(catalogGroup));
+                    groupByPid.put(catalogGroup.getPid(), groupItem);
+                });
+        return this.getCatalogGroupChildrenNodes(groupByPid.get(null), groupByPid);
     }
 
     private List<CatalogGroupNodeVO> getCatalogGroupChildrenNodes(List<CatalogGroupSimpleBO> boList, Map<Long, List<CatalogGroupSimpleBO>> groupByPid) {

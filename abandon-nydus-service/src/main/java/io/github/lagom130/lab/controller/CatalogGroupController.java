@@ -4,9 +4,13 @@ import io.github.lagom130.lab.dto.CatalogGroupDto;
 import io.github.lagom130.lab.entity.CatalogGroup;
 import io.github.lagom130.lab.globalResponse.Result;
 import io.github.lagom130.lab.service.ICatalogGroupService;
+import io.github.lagom130.lab.util.SnowFlakeUtil;
 import io.github.lagom130.lab.vo.CatalogGroupNodeVO;
 import jakarta.annotation.Resource;
+import org.apache.http.util.Asserts;
 import org.springframework.boot.context.properties.bind.DefaultValue;
+import org.springframework.util.NumberUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
 
@@ -44,8 +48,11 @@ public class CatalogGroupController {
     }
 
     @GetMapping("/{id}")
-    public Result<CatalogGroup> getOne(@PathVariable("id") Long id) {
-
+    public Result<CatalogGroup> getOne(@PathVariable("id") String idStr) {
+        Long id = NumberUtils.parseNumber(idStr, Long.class);
+        if(id<0 || id> SnowFlakeUtil.getCurrentMax()) {
+            return new Result<CatalogGroup>().success(null);
+        }
         return new Result<CatalogGroup>().success(catalogGroupService.getOne(id));
     }
 

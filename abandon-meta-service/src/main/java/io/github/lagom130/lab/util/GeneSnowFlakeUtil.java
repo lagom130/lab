@@ -9,7 +9,7 @@ import io.github.lagom130.lab.globalResponse.BizException;
 public class GeneSnowFlakeUtil {
 
     // 起始时间戳
-    private final static long START_STMP = 1696089600000L;
+    private final static long START_STMP = 1700000000000L;
 
     // 每部分的位数
     private long GENE_BIT=0; // 基因片段占位数，默认0
@@ -75,12 +75,4 @@ public class GeneSnowFlakeUtil {
         return System.currentTimeMillis();
     }
 
-    public static void main(String[] args) {
-        int shard = 8;
-        long userId = System.currentTimeMillis();
-        GeneSnowFlakeUtil generator = new GeneSnowFlakeUtil(0, shard);
-        long code = generator.getNextId(userId);
-        System.out.println("u: " + userId +" mod "+shard+" = "+ userId%shard);
-        System.out.println("c: " + code +" mod "+shard+" = "+ code%shard);
-    }
 }
