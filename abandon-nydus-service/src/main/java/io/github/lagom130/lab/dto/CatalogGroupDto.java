@@ -16,7 +16,7 @@ import java.io.Serializable;
 @lombok.Data
 public class CatalogGroupDto {
 
-    private Integer name;
+    private String name;
 
     private String code;
 

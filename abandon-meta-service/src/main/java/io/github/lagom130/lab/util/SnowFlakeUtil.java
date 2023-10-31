@@ -7,7 +7,7 @@ package io.github.lagom130.lab.util;
 public class SnowFlakeUtil {
 
     // 起始时间戳
-    private final static long START_STMP = 1700000000000L;
+    private final static long START_STMP = 1690000000000L;
 
     // 每部分的位数
     private final static long SEQUENCE_BIT = 12; // 序列号占用位数
@@ -38,6 +38,9 @@ public class SnowFlakeUtil {
         }
         this.datacenterId = datacenterId;
         this.machineId = machineId;
+        if (System.currentTimeMillis() < START_STMP) {
+            this.lastStmp = START_STMP;
+        }
     }
 
     // 产生下一个ID

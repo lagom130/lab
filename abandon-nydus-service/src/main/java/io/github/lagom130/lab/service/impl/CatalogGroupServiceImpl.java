@@ -21,6 +21,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
+import org.springframework.util.StringUtils;
 
 import java.sql.Wrapper;
 import java.util.*;
@@ -50,9 +51,16 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
         BeanUtils.copyProperties(dto, catalogGroup);
         catalogGroup.setId(metaClient.getSnowflakeId());
         CatalogGroup parent = this.getById(catalogGroup.getPid());
-        List<String> pids = Arrays.stream(parent.getPids().split(",")).collect(Collectors.toList());
-        pids.add(parent.getPid()+"");
-        catalogGroup.setPids(pids.stream().collect(Collectors.joining(",")));
+        if(parent != null) {
+            String parentId = parent.getId()+"";
+            String parentPids = parent.getPids();
+            if(parentPids != null) {
+                catalogGroup.setPids(parentPids+","+parentId);
+            } else {
+                catalogGroup.setPids(parentId);
+            }
+
+        }
         this.save(catalogGroup);
         return catalogGroup.getId();
     }
