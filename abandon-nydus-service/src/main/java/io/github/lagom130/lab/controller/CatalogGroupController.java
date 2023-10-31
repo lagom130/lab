@@ -50,7 +50,7 @@ public class CatalogGroupController {
     }
 
     @GetMapping("/tree")
-    public Result<List<CatalogGroupNodeVO>> getTree(@RequestParam("noCaches") @DefaultValue("false") boolean noCaches) {
-        return new Result<List<CatalogGroupNodeVO>>().success(catalogGroupService.getTree(noCaches));
+    public Result<List<CatalogGroupNodeVO>> getTree(@RequestParam("noCaches") @DefaultValue("false") String noCaches) {
+        return new Result<List<CatalogGroupNodeVO>>().success(catalogGroupService.getTree(Boolean.parseBoolean(noCaches)));
     }
 }
