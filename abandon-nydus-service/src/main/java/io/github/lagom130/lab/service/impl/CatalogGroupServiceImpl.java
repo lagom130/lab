@@ -140,6 +140,7 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
             vo.setId(parent.getId());
             vo.setName(parent.getName());
             vo.setChildren(this.getCatalogGroupChildrenNodes(groupByPid.getOrDefault(parent.getId(), new ArrayList<>()), groupByPid));
+            groupByPid.remove(parent.getId());
             return vo;
         }).collect(Collectors.toList());
     }
