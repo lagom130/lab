@@ -22,7 +22,7 @@ public class CatalogGroup implements Serializable {
 
     private Long id;
 
-    private Integer name;
+    private String name;
 
     private String code;
 
