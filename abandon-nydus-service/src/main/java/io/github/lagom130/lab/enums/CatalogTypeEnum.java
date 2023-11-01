@@ -1,6 +1,7 @@
 package io.github.lagom130.lab.enums;
 
 import com.baomidou.mybatisplus.annotation.EnumValue;
+import com.fasterxml.jackson.annotation.JsonCreator;
 
 /**
  * @author lujc
@@ -17,5 +18,10 @@ public enum CatalogTypeEnum implements IBaseEnum<Integer>{
 
     CatalogTypeEnum(Integer code, String desc) {
         this.init(code, desc);
+    }
+
+    @JsonCreator
+    public static CatalogTypeEnum getByCode(Integer code) {
+        return IBaseEnum.getByCode(CatalogTypeEnum.class, code);
     }
 }
