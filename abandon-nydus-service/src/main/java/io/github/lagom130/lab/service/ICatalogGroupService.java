@@ -1,13 +1,10 @@
 package io.github.lagom130.lab.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import io.github.lagom130.lab.dto.CatalogGroupDto;
+import io.github.lagom130.lab.dto.CatalogGroupDTO;
 import io.github.lagom130.lab.entity.CatalogGroup;
 import com.baomidou.mybatisplus.extension.service.IService;
-import io.github.lagom130.lab.globalResponse.Result;
 import io.github.lagom130.lab.vo.CatalogGroupNodeVO;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -21,9 +18,9 @@ import java.util.List;
  */
 @Service
 public interface ICatalogGroupService extends IService<CatalogGroup> {
-    Long addOne(CatalogGroupDto dto);
+    Long addOne(CatalogGroupDTO dto);
 
-    void updateOne(Long id, CatalogGroupDto dto);
+    void updateOne(Long id, CatalogGroupDTO dto);
 
     void deleteOne(Long id);
 

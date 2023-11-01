@@ -4,7 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.lagom130.lab.bo.CatalogGroupSimpleBO;
 import io.github.lagom130.lab.client.MetaClient;
-import io.github.lagom130.lab.dto.CatalogGroupDto;
+import io.github.lagom130.lab.dto.CatalogGroupDTO;
 import io.github.lagom130.lab.entity.CatalogGroup;
 import io.github.lagom130.lab.mapper.CatalogGroupMapper;
 import io.github.lagom130.lab.service.ICatalogGroupService;
@@ -14,16 +14,11 @@ import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
-import org.springframework.data.redis.cache.RedisCacheManager;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
-import org.springframework.util.StringUtils;
 
-import java.sql.Wrapper;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -46,7 +41,7 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
     private ObjectMapper objectMapper;
 
     @Override
-    public Long addOne(CatalogGroupDto dto) {
+    public Long addOne(CatalogGroupDTO dto) {
         CatalogGroup catalogGroup = new CatalogGroup();
         BeanUtils.copyProperties(dto, catalogGroup);
         catalogGroup.setId(metaClient.getSnowflakeId());
@@ -67,7 +62,7 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
 
     @Override
     @CacheEvict(key = "'catalog_group::'+ #id")
-    public void updateOne(Long id, CatalogGroupDto dto) {
+    public void updateOne(Long id, CatalogGroupDTO dto) {
         CatalogGroup catalogGroup = this.getById(id);
         BeanUtils.copyProperties(dto, catalogGroup);
         catalogGroup.setId(metaClient.getSnowflakeId());

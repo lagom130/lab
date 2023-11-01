@@ -1,9 +1,6 @@
 package io.github.lagom130.lab.dto;
 
-import com.baomidou.mybatisplus.annotation.TableName;
 import io.github.lagom130.lab.enums.CatalogTypeEnum;
-
-import java.io.Serializable;
 
 /**
  * <p>
@@ -14,7 +11,7 @@ import java.io.Serializable;
  * @since 2023-10-29
  */
 @lombok.Data
-public class CatalogGroupDto {
+public class CatalogGroupDTO {
 
     private String name;
 
