@@ -14,10 +14,7 @@ import org.springframework.util.NumberUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.stereotype.Controller;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -27,7 +24,7 @@ import java.util.Map;
  * @author lagom
  * @since 2023-10-29
  */
-@Controller
+@RestController
 @RequestMapping("/api/catalogGroup")
 public class CatalogGroupController {
     @Resource
@@ -54,11 +51,7 @@ public class CatalogGroupController {
 
     @GetMapping("/{id}")
     public Result<CatalogGroup> getOne(@PathVariable("id") String idStr) {
-        Long id = NumberUtils.parseNumber(idStr, Long.class);
-        if(id<0 || id> SnowFlakeUtil.getCurrentMax()) {
-            return new Result<CatalogGroup>().success(null);
-        }
-        return new Result<CatalogGroup>().success(catalogGroupService.getOne(id));
+        return new Result<CatalogGroup>().success(catalogGroupService.getOne(Long.parseLong(idStr)));
     }
 
     @GetMapping("/tree")
@@ -70,6 +63,7 @@ public class CatalogGroupController {
     public void fake() {
         // 创建一个HashMap用于存储省份信息
         Map<String, String> provinceMap = new HashMap<>();
+
         // 添加省份信息到HashMap中
         provinceMap.put("11", "北京市");
         provinceMap.put("12", "天津市");
@@ -160,18 +154,18 @@ public class CatalogGroupController {
         solarTerms.add("小寒");
         solarTerms.add("大寒");
         List<String> constellations = new ArrayList<>();
-        constellations.add("白羊");
-        constellations.add("金牛");
-        constellations.add("双子");
-        constellations.add("巨蟹");
-        constellations.add("狮子");
-        constellations.add("处女");
-        constellations.add("天秤");
-        constellations.add("天蝎");
-        constellations.add("射手");
-        constellations.add("摩羯");
-        constellations.add("水瓶");
-        constellations.add("双鱼");
+        constellations.add("白羊街道");
+        constellations.add("金牛街道");
+        constellations.add("双子街道");
+        constellations.add("巨蟹街道");
+        constellations.add("狮子街道");
+        constellations.add("处女街道");
+        constellations.add("天秤街道");
+        constellations.add("天蝎街道");
+        constellations.add("射手街道");
+        constellations.add("摩羯街道");
+        constellations.add("水瓶街道");
+        constellations.add("双鱼街道");
         List<String> luohans = new ArrayList<>();
 
         luohans.add("清净");
@@ -231,94 +225,95 @@ public class CatalogGroupController {
         stratagems.add("声东击西");
         List<String> hours = new ArrayList<>();
 
-        hours.add("子"); // 23:00-01:00
-        hours.add("丑"); // 01:00-03:00
-        hours.add("寅"); // 03:00-05:00
-        hours.add("卯"); // 05:00-07:00
-        hours.add("辰");
-        hours.add("巳");
-        hours.add("午");
-        hours.add("未");
-        hours.add("申");
-        hours.add("酉");
-        hours.add("戌");
-        hours.add("亥");
+        hours.add("子部门"); // 23:00-01:00
+        hours.add("丑部门"); // 01:00-03:00
+        hours.add("寅部门"); // 03:00-05:00
+        hours.add("卯部门"); // 05:00-07:00
+        hours.add("辰部门");
+        hours.add("巳部门");
+        hours.add("午部门");
+        hours.add("未部门");
+        hours.add("申部门");
+        hours.add("酉部门");
+        hours.add("戌部门");
+        hours.add("亥部门");
+
+        CatalogGroup dept = new CatalogGroup();
+        dept.setId(metaClient.getSnowflakeId());
+        dept.setName("部门类");
+        dept.setCode("0"+CatalogTypeEnum.DEPT.getCode());
+        dept.setCatalogType(CatalogTypeEnum.DEPT);
+        dept.setPid(null);
+        dept.setPids(null);
+        this.catalogGroupService.save(dept);
+        constellations.addAll(hours);
+        this.fakeBatchSave(dept, provinceMap, tiangang, solarTerms, constellations);
+        CatalogGroup basic = new CatalogGroup();
+        basic.setId(metaClient.getSnowflakeId());
+        basic.setName("基础类");
+        basic.setCode("0"+CatalogTypeEnum.BASIC.getCode());
+        basic.setCatalogType(CatalogTypeEnum.BASIC);
+        basic.setPid(null);
+        basic.setPids(null);
+        this.catalogGroupService.save(basic);
+        this.fakeBatchSave(basic, provinceMap, tiangang, solarTerms, stratagems);
+        CatalogGroup theme = new CatalogGroup();
+        theme.setId(metaClient.getSnowflakeId());
+        theme.setName("部门类");
+        theme.setCode("0"+CatalogTypeEnum.THEME.getCode());
+        theme.setCatalogType(CatalogTypeEnum.THEME);
+        theme.setPid(null);
+        theme.setPids(null);
+        this.catalogGroupService.save(theme);
+        this.fakeBatchSave(theme, provinceMap, tiangang, solarTerms, luohans);
+
+    }
+
+    private void fakeBatchSave(CatalogGroup typeGroup, Map<String, String> provinceMap, List<String> cityList, List<String> areaList, List<String> nodeList) {
+        CatalogTypeEnum catalogTypeEnum = typeGroup.getCatalogType();
         provinceMap.entrySet().parallelStream().forEach(entry -> {
             String provinceName = entry.getValue();
             CatalogGroupDTO province = new CatalogGroupDTO();
             province.setName(provinceName);
-            province.setCode(entry.getKey());
-            province.setPid(null);
+            province.setCode(typeGroup.getCode()+entry.getKey());
+            province.setPid(typeGroup.getId());
+            province.setCatalogType(catalogTypeEnum);
             Long provinceId = catalogGroupService.addOne(province);
             List<CatalogGroup> batch = new ArrayList<>();
-            for (int j = 0; tiangang.size() < 60; j++) {
-                String cityName = tiangang.get(j);
+            for (int j = 0; j< cityList.size(); j++) {
+                String cityName = cityList.get(j);
                 CatalogGroup city = new CatalogGroup();
                 city.setId(metaClient.getSnowflakeId());
                 city.setName(cityName+"市");
                 city.setCode(province.getCode()+(j<10?"0"+j:""+j));
+                city.setCatalogType(catalogTypeEnum);
                 city.setPid(provinceId);
                 city.setPids(""+provinceId);
                 batch.add(city);
-                for (int a = 0; a < solarTerms.size(); a++) {
-                    String areaName = solarTerms.get(a);
+                for (int a = 0; a < areaList.size(); a++) {
+                    String areaName = areaList.get(a);
                     CatalogGroup area = new CatalogGroup();
                     area.setId(metaClient.getSnowflakeId());
                     area.setName(areaName+"区");
                     area.setCode(city.getCode()+(a<10?"0"+a:""+a));
-                    String areaCode = area.getCode();
+                    String areaCode = area.getCode().substring(2);
                     area.setPid(city.getId());
                     area.setPids(city.getPids() + "," + city.getId());
-                    area.setCatalogType(CatalogTypeEnum.DEPT);
+                    area.setCatalogType(catalogTypeEnum);
                     batch.add(area);
-                    for (int b = 0; b < constellations.size(); b++) {
-                        String screetName = constellations.get(b);
-                        CatalogGroup street = new CatalogGroup();
-                        street.setId(metaClient.getSnowflakeId());
-                        street.setName(screetName+"街道");
-                        street.setCode(area.getCode()+(b<10?"0"+b:""+b));
-                        street.setPid(area.getId());
-                        street.setPids(area.getPids() + "," + area.getId());
-                        street.setRegionCode(areaCode);
-                        street.setCatalogType(CatalogTypeEnum.DEPT);
-                        batch.add(street);
-                        for (int c = 0; c < luohans.size(); c++) {
-                            String deptName = luohans.get(c);
-                            CatalogGroup dept = new CatalogGroup();
-                            dept.setId(metaClient.getSnowflakeId());
-                            dept.setName(deptName+"局");
-                            dept.setCode(street.getCode()+"01"+(c<10?"0"+c:""+c));
-                            dept.setPid(street.getId());
-                            dept.setPids(street.getPids() + "," + street.getId());
-                            dept.setRegionCode(areaCode);
-                            dept.setCatalogType(CatalogTypeEnum.DEPT);
-                            batch.add(dept);
-                        }
-                    }
-                    for (int d = 0; d < stratagems.size(); d++) {
-                        String themeName = stratagems.get(d);
+                    for (int d = 0; d < nodeList.size(); d++) {
+                        String themeName = nodeList.get(d);
                         CatalogGroup theme = new CatalogGroup();
                         theme.setId(metaClient.getSnowflakeId());
                         theme.setName(themeName);
-                        theme.setCode(area.getCode()+"03"+(d<10?"0"+d:""+d));
+                        theme.setCode(area.getCode()+(d<10?"0"+d:""+d));
                         theme.setPid(area.getId());
                         theme.setPids(area.getPids() + "," + area.getId());
                         theme.setRegionCode(areaCode);
-                        theme.setCatalogType(CatalogTypeEnum.THEME);
+                        theme.setCatalogType(catalogTypeEnum);
                         batch.add(theme);
                     }
-                    for (int d = 0; d < hours.size(); d++) {
-                        String themeName = hours.get(d);
-                        CatalogGroup theme = new CatalogGroup();
-                        theme.setId(metaClient.getSnowflakeId());
-                        theme.setName(themeName);
-                        theme.setCode(area.getCode()+"02"+(d<10?"0"+d:""+d));
-                        theme.setPid(area.getId());
-                        theme.setPids(area.getPids() + "," + area.getId());
-                        theme.setRegionCode(areaCode);
-                        theme.setCatalogType(CatalogTypeEnum.BASIC);
-                        batch.add(theme);
-                    }
+
                 }
 
             }

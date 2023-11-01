@@ -1,5 +1,9 @@
 package io.github.lagom130.lab.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.AbstractWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.support.SFunction;
+import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.lagom130.lab.bo.CatalogGroupSimpleBO;
@@ -9,6 +13,7 @@ import io.github.lagom130.lab.entity.CatalogGroup;
 import io.github.lagom130.lab.mapper.CatalogGroupMapper;
 import io.github.lagom130.lab.service.ICatalogGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import io.github.lagom130.lab.util.GzipUtil;
 import io.github.lagom130.lab.vo.CatalogGroupNodeVO;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
@@ -61,7 +66,7 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
     }
 
     @Override
-    @CacheEvict(key = "'catalog_group::'+ #id")
+    @CacheEvict(key = "'catalog_group:'+ #id")
     public void updateOne(Long id, CatalogGroupDTO dto) {
         CatalogGroup catalogGroup = this.getById(id);
         BeanUtils.copyProperties(dto, catalogGroup);
@@ -74,23 +79,23 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
     }
 
     @Override
-    @CacheEvict(key = "'catalog_group::'+ #id")
+    @CacheEvict(key = "'catalog_group:'+ #id")
     public void deleteOne(Long id) {
         this.removeById(id);
     }
 
     @Override
-    @Cacheable(key = "'catalog_group::'+ #id", sync = true)
+    @Cacheable(key = "'catalog_group:'+ #id", sync = true)
     public CatalogGroup getOne(Long id) {
         return this.getById(id);
     }
 
     @Override
     public List<CatalogGroupNodeVO> getTree(boolean noCaches) {
-        String caches = stringRedisTemplate.opsForValue().get("catalog_group::tree");
+        String caches = stringRedisTemplate.opsForValue().get("catalog_group:tree");
         if(!noCaches && caches != null) {
             try {
-                return objectMapper.readValue(caches, objectMapper.getTypeFactory().constructParametricType(List.class, CatalogGroupNodeVO.class));
+                return objectMapper.readValue(GzipUtil.uncompress(caches), objectMapper.getTypeFactory().constructParametricType(List.class, CatalogGroupNodeVO.class));
             } catch (JsonProcessingException e) {
                 throw new RuntimeException(e);
             }
@@ -98,10 +103,10 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
         List<CatalogGroupNodeVO> trees = null;
         synchronized(this) {
             if(!noCaches) {
-                caches = stringRedisTemplate.opsForValue().get("catalog_group::tree");
+                caches = stringRedisTemplate.opsForValue().get("catalog_group:tree");
                 if(caches != null) {
                     try {
-                        return objectMapper.readValue(caches, objectMapper.getTypeFactory().constructParametricType(List.class, CatalogGroupNodeVO.class));
+                        return objectMapper.readValue(GzipUtil.uncompress(caches), objectMapper.getTypeFactory().constructParametricType(List.class, CatalogGroupNodeVO.class));
                     } catch (JsonProcessingException e) {
                         throw new RuntimeException(e);
                     }
@@ -114,7 +119,7 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
             } catch (JsonProcessingException e) {
                 throw new RuntimeException(e);
             }
-            stringRedisTemplate.opsForValue().set("catalog_group::tree", treeStr);
+            stringRedisTemplate.opsForValue().set("catalog_group:tree", GzipUtil.compress(treeStr));
             return trees;
         }
 
@@ -122,9 +127,10 @@ public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, Cat
 
     private List<CatalogGroupNodeVO> getTree() {
         Map<Long, List<CatalogGroupSimpleBO>> groupByPid = new HashMap<>();
+        AbstractWrapper<CatalogGroup, SFunction<CatalogGroup, ?>, LambdaQueryWrapper<CatalogGroup>> wrapper = this.lambdaQuery()
+                .select(CatalogGroup::getId, CatalogGroup::getName, CatalogGroup::getPid).getWrapper();
         this.getBaseMapper().selectList(
-                this.lambdaQuery()
-                        .select(CatalogGroup::getId, CatalogGroup::getName, CatalogGroup::getPid),
+                wrapper,
                 resultContext ->{
                     CatalogGroup catalogGroup = resultContext.getResultObject();
                     List<CatalogGroupSimpleBO> groupItem = groupByPid.getOrDefault(catalogGroup.getPid(), new ArrayList<>());
