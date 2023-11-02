@@ -1,4 +1,6 @@
-package io.github.lagom130.lab.common.utils.enums.utils;
+package io.github.lagom130.lab.util;
+
+import com.baomidou.mybatisplus.annotation.EnumValue;
 
 import java.lang.reflect.Field;
 import java.util.Arrays;
@@ -7,10 +9,9 @@ import java.util.Optional;
 
 /**
  * @author lujc
- * @date 2023/9/11.
+ * @date 2023/11/2.
  */
 public class EnumUtils {
-
     /**
      * 转换字段需要注解@EnumKey
      * 没有对应枚举返回null
@@ -28,7 +29,7 @@ public class EnumUtils {
         }
         Field field = findEnumKeyFiled(enumClass)
                 .orElseThrow(() -> new IllegalArgumentException(
-                        enumClass + " must have a filed with the annotation " + EnumKey.class));
+                        enumClass + " must have a filed with the annotation " + EnumValue.class));
         field.setAccessible(Boolean.TRUE);
         return Arrays.stream(enumClass.getEnumConstants())
                 .filter(enumConstant -> {
@@ -45,7 +46,7 @@ public class EnumUtils {
     private static <E extends Enum<E>> Optional<Field> findEnumKeyFiled(Class<E> enumClass) {
 
         return Arrays.stream(enumClass.getDeclaredFields())
-                .filter(field -> Objects.nonNull(field.getDeclaredAnnotation(EnumKey.class)))
+                .filter(field -> Objects.nonNull(field.getDeclaredAnnotation(EnumValue.class)))
                 .findFirst();
 
     }

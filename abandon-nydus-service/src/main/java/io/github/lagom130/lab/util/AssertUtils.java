@@ -7,9 +7,9 @@ import java.util.function.*;
  * @author lujc
  * @date 2023/11/1.
  */
-public class Assert {
+public class AssertUtils {
 
-    private Assert() {
+    private AssertUtils() {
 
     }
     public static <T, E extends RuntimeException> void isTrue(T t, Predicate<T> verifier, Supplier<E> exSupplier) {

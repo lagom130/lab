@@ -4,7 +4,7 @@ package io.github.lagom130.lab.util;
  * @author lujc
  * @date 2023/10/25.
  */
-public class SnowFlakeUtil {
+public class SnowFlakeUtils {
 
     // 起始时间戳
     private final static long START_STMP = 1700000000000L;
@@ -29,7 +29,7 @@ public class SnowFlakeUtil {
     private long sequence = 0L; // 序列号
     private long lastStmp = -1L; // 上次的时间戳
 
-    public SnowFlakeUtil(long datacenterId, long machineId) {
+    public SnowFlakeUtils(long datacenterId, long machineId) {
         if (datacenterId > MAX_DATACENTER_NUM || datacenterId < 0) {
             throw new IllegalArgumentException("datacenterId can't be greater than MAX_DATACENTER_NUM or less than 0");
         }

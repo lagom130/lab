@@ -1,8 +1,8 @@
 package io.github.lagom130.lab.service;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import io.github.lagom130.lab.dto.CatalogGroupDTO;
 import io.github.lagom130.lab.entity.CatalogGroup;
-import com.baomidou.mybatisplus.extension.service.IService;
 import io.github.lagom130.lab.vo.CatalogGroupNodeVO;
 import org.springframework.stereotype.Service;
 
@@ -16,12 +16,8 @@ import java.util.List;
  * @author lagom
  * @since 2023-10-29
  */
-public interface ICatalogGroupService extends IService<CatalogGroup> {
-    Long addOne(CatalogGroupDTO dto);
+public interface ICatalogGroupTreeService extends IService<CatalogGroup> {
+    List<CatalogGroupNodeVO> getTree();
 
-    void updateOne(Long id, CatalogGroupDTO dto);
-
-    void deleteOne(Long id);
-
-    CatalogGroup getOne(Long id);
+    void refreshTree();
 }

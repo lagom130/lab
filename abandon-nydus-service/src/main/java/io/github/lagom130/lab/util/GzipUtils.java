@@ -7,7 +7,7 @@ import java.util.Base64;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
-public class GzipUtil {
+public class GzipUtils {
     /**
      * 使用gzip压缩字符串
      *

@@ -11,7 +11,7 @@ import io.github.lagom130.lab.mapper.CatalogGroupMapper;
 import io.github.lagom130.lab.mapper.CatalogMapper;
 import io.github.lagom130.lab.service.ICatalogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import io.github.lagom130.lab.util.Assert;
+import io.github.lagom130.lab.util.AssertUtils;
 import io.github.lagom130.lab.vo.CatalogVO;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
@@ -48,7 +48,7 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
         catalog.setReleased(false);
         catalog.setAuditing(false);
         CatalogGroup catalogGroup = catalogGroupMapper.selectById(catalog.getGroupId());
-        Assert.isTrue(catalogGroup, Assert::isNotNull, () -> new BizException(400, "catalog group not found"));
+        AssertUtils.isTrue(catalogGroup, AssertUtils::isNotNull, () -> new BizException(400, "catalog group not found"));
         catalog.setGroupIds(catalogGroup.getPids()+","+catalogGroup.getId());
         catalog.setRegionCode(catalogGroup.getRegionCode());
         catalog.setId(metaClient.getSnowflakeId());
@@ -59,7 +59,7 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     @Override
     public void updateOne(Long id, CatalogDTO dto) {
         Catalog catalog = this.getById(id);
-        Assert.isTrue(catalog, Assert::isNotNull, () -> new BizException(400, "catalog not found"));
+        AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
         BeanUtils.copyProperties(dto, catalog);
         catalog.setUpdatedTime(LocalDateTime.now());
         this.updateById(catalog);
@@ -68,14 +68,14 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     @Override
     public void deleteOne(Long id) {
         Catalog catalog = this.getById(id);
-        Assert.isTrue(catalog, Assert::isNotNull, () -> new BizException(400, "catalog not found"));
+        AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
         this.removeById(catalog);
     }
 
     @Override
     public CatalogVO getOne(Long id) {
         Catalog catalog = this.getById(id);
-        Assert.isTrue(catalog, Assert::isNotNull, () -> new BizException(400, "catalog not found"));
+        AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
         CatalogVO catalogVO = new CatalogVO();
         BeanUtils.copyProperties(catalog, catalogVO);
         return catalogVO;
