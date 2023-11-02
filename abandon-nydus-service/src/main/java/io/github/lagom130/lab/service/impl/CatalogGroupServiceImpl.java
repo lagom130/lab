@@ -36,7 +36,6 @@ import java.util.stream.Collectors;
  * @since 2023-10-29
  */
 @Service
-@CacheConfig(cacheNames="catalog_group")
 public class CatalogGroupServiceImpl extends ServiceImpl<CatalogGroupMapper, CatalogGroup> implements ICatalogGroupService {
     @Resource
     private MetaClient metaClient;

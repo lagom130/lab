@@ -19,4 +19,6 @@ public interface ICatalogService extends IService<Catalog> {
     void deleteOne(Long id);
 
     CatalogVO getOne(Long id);
+
+    void release(Long id);
 }

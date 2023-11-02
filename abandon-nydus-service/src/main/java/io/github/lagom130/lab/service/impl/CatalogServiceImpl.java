@@ -1,6 +1,12 @@
 package io.github.lagom130.lab.service.impl;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import io.github.lagom130.lab.client.FlowClient;
 import io.github.lagom130.lab.client.MetaClient;
+import io.github.lagom130.lab.client.dto.ApplyDto;
+import io.github.lagom130.lab.client.dto.ApplySlot;
+import io.github.lagom130.lab.client.dto.UserInfo;
 import io.github.lagom130.lab.config.LoginUser;
 import io.github.lagom130.lab.config.LoginUserUtils;
 import io.github.lagom130.lab.dto.CatalogDTO;
@@ -15,9 +21,16 @@ import io.github.lagom130.lab.util.AssertUtils;
 import io.github.lagom130.lab.vo.CatalogVO;
 import jakarta.annotation.Resource;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -33,6 +46,12 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     private CatalogGroupMapper catalogGroupMapper;
     @Resource
     private MetaClient metaClient;
+    @Resource
+    private FlowClient flowClient;
+    @Value("${spring.application.name}")
+    private String appName;
+    @Resource
+    private ObjectMapper objectMapper;
 
     @Override
     public Long addOne(CatalogDTO dto) {
@@ -57,6 +76,7 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     }
 
     @Override
+    @CacheEvict(key = "'catalog:'+ #id")
     public void updateOne(Long id, CatalogDTO dto) {
         Catalog catalog = this.getById(id);
         AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
@@ -66,6 +86,7 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     }
 
     @Override
+    @CacheEvict(key = "'catalog:'+ #id")
     public void deleteOne(Long id) {
         Catalog catalog = this.getById(id);
         AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
@@ -73,11 +94,43 @@ public class CatalogServiceImpl extends ServiceImpl<CatalogMapper, Catalog> impl
     }
 
     @Override
+    @Cacheable(key = "'catalog:'+ #id", sync = true)
     public CatalogVO getOne(Long id) {
         Catalog catalog = this.getById(id);
         AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
         CatalogVO catalogVO = new CatalogVO();
         BeanUtils.copyProperties(catalog, catalogVO);
         return catalogVO;
+    }
+
+    @Override
+    @Transactional // 修改为seata at事务
+    public void release(Long id) {
+        LoginUser loginUser = LoginUserUtils.getLoginUser();
+        Catalog catalog = this.getById(id);
+        AssertUtils.isTrue(catalog, AssertUtils::isNotNull, () -> new BizException(400, "catalog not found"));
+        List<ApplySlot> slots = new ArrayList<>();
+        slots.add(ApplySlot.builder()
+                .auditOrder(0)
+                .type(ApplySlot.AuditTypeEnum.ALL)
+                .auditors(List.of(UserInfo.builder().userId(-1L).username("admin").build()))
+                .build());
+        try {
+            ApplyDto applyDto = ApplyDto.builder()
+                    .applyUser(loginUser.getId())
+                    .applyUsername(loginUser.getUsername())
+                    .appliedTime(LocalDateTime.now())
+                    .service(appName)
+                    .bizType("catalog_release")
+                    .slots(slots)
+                    .detail(objectMapper.readValue(objectMapper.writeValueAsString(catalog.getDetail()), Map.class))
+                    .build();
+            flowClient.apply(applyDto);
+            catalog.setAuditing(true);
+            this.updateById(catalog);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }
