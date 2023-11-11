@@ -28,6 +28,8 @@
         <module>abandon-canary-order</module>
         <!-- common modules -->
         <module>common-code-gen</module>
+        <!-- kotlin modules -->
+        <module>cat-canary</module>
 
     </modules>
 
