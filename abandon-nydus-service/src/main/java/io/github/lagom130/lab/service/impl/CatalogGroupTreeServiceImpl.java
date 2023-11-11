@@ -97,9 +97,9 @@ public class CatalogGroupTreeServiceImpl extends ServiceImpl<CatalogGroupMapper,
         }
         return boList.stream().map(parent -> {
             CatalogGroupNodeVO vo = new CatalogGroupNodeVO();
-            vo.setId(parent.getId());
-            vo.setName(parent.getName());
-            vo.setChildren(this.getCatalogGroupChildrenNodes(groupByPid.getOrDefault(parent.getId(), new ArrayList<>()), groupByPid));
+            vo.setI(parent.getId());
+            vo.setN(parent.getName());
+            vo.setC(this.getCatalogGroupChildrenNodes(groupByPid.getOrDefault(parent.getId(), new ArrayList<>()), groupByPid));
             groupByPid.remove(parent.getId());
             return vo;
         }).collect(Collectors.toList());

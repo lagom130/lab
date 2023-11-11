@@ -8,7 +8,7 @@ import java.util.List;
  */
 @lombok.Data
 public class CatalogGroupNodeVO {
-    private Long id;
-    private String name;
-    private List<CatalogGroupNodeVO> children;
+    private Long i;
+    private String n;
+    private List<CatalogGroupNodeVO> c;
 }
