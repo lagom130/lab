@@ -1,5 +1,7 @@
 package io.github130.lab.cat.controller
 
+import io.github130.lab.cat.service.IHelloService
+import jakarta.annotation.Resource
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping
@@ -12,11 +14,13 @@ import org.springframework.web.bind.annotation.RestController
  * @date 2023/11/11.
  */
 @RestController
-@RequestMapping("/default")
-class DefaultController {
+@RequestMapping("/hello")
+class HelloController {
+    @Resource
+    private lateinit var helloService: IHelloService
 
-    @GetMapping("/hello/{name}")
+    @GetMapping("/{name}")
     fun hello(@PathVariable name: String): String {
-        return "hello $name"
+        return helloService.hello(name)
     }
 }
