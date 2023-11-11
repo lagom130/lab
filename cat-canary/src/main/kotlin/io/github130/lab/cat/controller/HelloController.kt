@@ -1,5 +1,6 @@
 package io.github130.lab.cat.controller
 
+import io.github130.lab.cat.globalResponse.Result
 import io.github130.lab.cat.service.IHelloService
 import jakarta.annotation.Resource
 import org.springframework.web.bind.annotation.GetMapping
@@ -20,7 +21,7 @@ class HelloController {
     private lateinit var helloService: IHelloService
 
     @GetMapping("/{name}")
-    fun hello(@PathVariable name: String): String {
-        return helloService.hello(name)
+    fun hello(@PathVariable name: String): Result<String> {
+        return Result(200,"操作成功", helloService.hello(name))
     }
 }
