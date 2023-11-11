@@ -16,8 +16,8 @@ class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = [BizException::class])
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    fun bizExceptionHandler(e: BizException): Result<*> {
-        return Result(e.errorCode, e.errorMsg, null);
+    fun bizExceptionHandler(e: BizException): GlobalResult<*> {
+        return GlobalResult(e.errorCode, e.errorMsg, null);
     }
 
     /**
@@ -26,10 +26,10 @@ class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = [MethodArgumentNotValidException::class])
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    fun methodArgumentNotValidExceptionHandler(e: MethodArgumentNotValidException): Result<*> {
+    fun methodArgumentNotValidExceptionHandler(e: MethodArgumentNotValidException): GlobalResult<*> {
         val bindingResult = e.bindingResult
         var errorMsg = bindingResult.allErrors.stream().findFirst().map { obj: ObjectError -> obj.defaultMessage }.orElse("参数错误")
-        return Result(e.statusCode.value(), errorMsg, null);
+        return GlobalResult(e.statusCode.value(), errorMsg, null);
     }
 
     /**
@@ -38,8 +38,8 @@ class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = [HttpMessageConversionException::class])
     @ResponseStatus(HttpStatus.BAD_REQUEST)
-    fun httpMessageConversionExceptionHandler(e: HttpMessageConversionException?): Result<*> {
-        return Result(400, "请求体格式不正确", null)
+    fun httpMessageConversionExceptionHandler(e: HttpMessageConversionException?): GlobalResult<*> {
+        return GlobalResult(400, "请求体格式不正确", null)
     }
 
     /**
@@ -48,7 +48,7 @@ class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = [Exception::class])
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    fun exceptionHandler(e: Exception?): Result<*> {
-        return Result(500, "服务错误", null)
+    fun exceptionHandler(e: Exception?): GlobalResult<*> {
+        return GlobalResult(500, "服务错误", null)
     }
 }
