@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>io.github.logom130.lab</groupId>
-    <artifactId>delibird-meta-service</artifactId>
+    <artifactId>delivery-bird-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>delibird-meta-service</name>
-    <description>delibird-meta-service</description>
+    <name>delivery-bird-service</name>
+    <description>delivery-bird-service</description>
     <properties>
         <java.version>17</java.version>
         <kotlin.version>1.8.22</kotlin.version>
