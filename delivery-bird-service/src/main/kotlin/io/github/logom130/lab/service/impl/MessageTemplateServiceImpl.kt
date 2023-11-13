@@ -45,8 +45,8 @@ open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, Messa
     override fun updateOne(id: Long, dto: MessageTemplateDTO) {
 //        var messageTemplate = this.getById(id)
 //        BeanUtils.copyProperties(dto,messageTemplate)
+//        messageTemplate.updateTime = LocalDateTime.now()
         var messageTemplate = MessageTemplateConvert.INSTANCE.dtoToEntity(dto, this.getById(id))
-        messageTemplate.updateTime = LocalDateTime.now()
         this.updateById(messageTemplate)
     }
 
