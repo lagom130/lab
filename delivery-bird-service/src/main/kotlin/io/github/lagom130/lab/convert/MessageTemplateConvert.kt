@@ -15,7 +15,7 @@ import org.mapstruct.factory.Mappers
 @Mapper(componentModel = "spring")
 interface MessageTemplateConvert {
     companion object {
-        val INSTANCE = Mappers.getMapper(MessageTemplateConvert::class.java)
+        val INSTANCE: MessageTemplateConvert = Mappers.getMapper(MessageTemplateConvert::class.java)
     }
 
     @Mapping(target = "updateTime", expression = "java(java.time.LocalDateTime.now())")
@@ -23,5 +23,5 @@ interface MessageTemplateConvert {
     @Mapping(target = "updateTime", expression = "java(java.time.LocalDateTime.now())")
     fun dtoToEntity(dto: MessageTemplateDTO, @MappingTarget entity: MessageTemplate): MessageTemplate
 
-    fun entityToVO(entity: MessageTemplate): MessageTemplateVO
+    fun entityToVO(entity: MessageTemplate?): MessageTemplateVO?
 }

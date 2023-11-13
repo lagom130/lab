@@ -41,5 +41,5 @@ interface IMessageTemplateService : IService<MessageTemplate> {
      * @param id
      * @return
      */
-    fun getOne(id : Long) : MessageTemplateVO
+    fun getOne(id : Long) : MessageTemplateVO?
 }

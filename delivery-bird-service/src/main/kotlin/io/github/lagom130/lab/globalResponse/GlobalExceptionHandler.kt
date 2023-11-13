@@ -1,5 +1,7 @@
-package io.github130.lab.cat.globalResponse
+package io.github130.lagom130.lab.globalResponse
 
+import io.github130.lab.cat.globalResponse.BizException
+import io.github130.lab.cat.globalResponse.GlobalResult
 import org.springframework.http.HttpStatus
 import org.springframework.http.converter.HttpMessageConversionException
 import org.springframework.validation.ObjectError

@@ -26,10 +26,9 @@ import kotlin.random.Random
 @Service
 open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, MessageTemplate>(), IMessageTemplateService {
     @Resource
-    private lateinit var messageTemplateMapper: MessageTemplateMapper;
+    private lateinit var messageTemplateMapper: MessageTemplateMapper
+
     override fun addOne(dto: MessageTemplateDTO): Long {
-//        var messageTemplate = MessageTemplate()
-//        BeanUtils.copyProperties(dto,messageTemplate)
         var messageTemplate = MessageTemplateConvert.INSTANCE.dtoToEntity(dto)
         // TODO : use meta-service id generator
         val id = Random.nextLong()
@@ -43,18 +42,11 @@ open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, Messa
     }
 
     override fun updateOne(id: Long, dto: MessageTemplateDTO) {
-//        var messageTemplate = this.getById(id)
-//        BeanUtils.copyProperties(dto,messageTemplate)
-//        messageTemplate.updateTime = LocalDateTime.now()
         var messageTemplate = MessageTemplateConvert.INSTANCE.dtoToEntity(dto, this.getById(id))
         this.updateById(messageTemplate)
     }
 
-    override fun getOne(id: Long): MessageTemplateVO {
-//        val messageTemplate = this.getById(id)
-//        var vo = MessageTemplateVO()
-//        BeanUtils.copyProperties(messageTemplate, vo)
-//        return vo
+    override fun getOne(id: Long): MessageTemplateVO? {
         return MessageTemplateConvert.INSTANCE.entityToVO(this.getById(id))
     }
 }

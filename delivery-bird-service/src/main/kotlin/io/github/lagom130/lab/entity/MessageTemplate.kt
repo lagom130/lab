@@ -25,8 +25,8 @@ data class MessageTemplate(
     var type: Int? = null,
     var published: Boolean? = null,
     @Version
-    var version: Long? = null,
+    var version: Int? = null,
     var updateTime: LocalDateTime? = null,
-    @TableLogic
+    @TableLogic(value = "0", delval = "1")
     var deleted: Int = 0,
 ) : Serializable
