@@ -1,18 +1,14 @@
 package io.github.lagom130.lab.service.impl;
 
-import io.github.lagom130.lab.entity.MessageTemplate;
-import io.github.lagom130.lab.mapper.MessageTemplateMapper;
-import io.github.lagom130.lab.service.IMessageTemplateService;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.fasterxml.jackson.databind.util.BeanUtil
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl
 import io.github.lagom130.lab.convert.MessageTemplateConvert
 import io.github.lagom130.lab.dto.MessageTemplateDTO
+import io.github.lagom130.lab.entity.MessageTemplate
+import io.github.lagom130.lab.mapper.MessageTemplateMapper
+import io.github.lagom130.lab.service.IMessageTemplateService
 import io.github.lagom130.lab.vo.MessageTemplateVO
 import jakarta.annotation.Resource
-import org.springframework.beans.BeanUtils
-import org.springframework.stereotype.Service;
-import java.time.LocalDateTime
-import java.util.UUID
+import org.springframework.stereotype.Service
 import kotlin.random.Random
 
 /**
@@ -47,7 +43,6 @@ open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, Messa
     }
 
     override fun getOne(id: Long): MessageTemplateVO? {
-        throw Exception("not implemented")
         return MessageTemplateConvert.INSTANCE.entityToVO(this.getById(id))
     }
 }
