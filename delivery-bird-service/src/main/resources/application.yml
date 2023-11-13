@@ -24,6 +24,12 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/delibird_meta?serverTimezone=Asia/Shanghai
     username: root
     password: Qwerty!2345
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
 logging:
   level:
     root: info
