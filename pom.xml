@@ -28,8 +28,12 @@
         <module>abandon-canary-order</module>
         <!-- common modules -->
         <module>common-code-gen</module>
+        <!-- common kt modules -->
+        <module>common-code-gen-kt</module>
         <!-- kotlin modules -->
         <module>cat-canary</module>
+        <!-- kotlin delivery-bird-service modules -->
+        <module>delivery-bird-service</module>
 
     </modules>
 
