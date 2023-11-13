@@ -7,8 +7,8 @@ class ResultUtils<T> {
         fun fail(code:Int, message:String): GlobalResult<Void> {
             return GlobalResult(code,message,null)
         }
-        fun success(code:Int, message:String): GlobalResult<Void> {
-            return GlobalResult(code,message,null)
+        fun success(): GlobalResult<*> {
+            return GlobalResult(200,"操作成功",null)
         }
 
         fun <T> success(code: Int, message: String, data: T): GlobalResult<T> {

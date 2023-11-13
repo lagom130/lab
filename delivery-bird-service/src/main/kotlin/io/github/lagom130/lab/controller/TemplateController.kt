@@ -27,9 +27,9 @@ class TemplateController {
     }
 
     @PutMapping("/{id}")
-    fun updateOne(@PathVariable("id")id: Long, @RequestBody dto: MessageTemplateDTO):GlobalResult<Void> {
+    fun updateOne(@PathVariable("id")id: Long, @RequestBody dto: MessageTemplateDTO):GlobalResult<*> {
         messageTemplateService.updateOne(id,dto)
-        return ResultUtils.success(200,"success")
+        return ResultUtils.success()
     }
 
 
@@ -39,8 +39,8 @@ class TemplateController {
     }
 
     @DeleteMapping("/{id}")
-    fun deleteOne(@PathVariable("id")id: Long):GlobalResult<Void> {
+    fun deleteOne(@PathVariable("id")id: Long):GlobalResult<*> {
         messageTemplateService.deleteOne(id)
-        return ResultUtils.success(200,"success")
+        return ResultUtils.success()
     }
 }

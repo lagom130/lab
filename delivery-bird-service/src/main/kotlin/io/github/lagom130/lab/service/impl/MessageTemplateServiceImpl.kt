@@ -47,6 +47,7 @@ open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, Messa
     }
 
     override fun getOne(id: Long): MessageTemplateVO? {
+        throw Exception("not implemented")
         return MessageTemplateConvert.INSTANCE.entityToVO(this.getById(id))
     }
 }

@@ -1,4 +1,4 @@
-package io.github130.lagom130.lab.globalResponse
+package io.github.lagom130.lab.globalResponse
 
 import io.github130.lab.cat.globalResponse.BizException
 import io.github130.lab.cat.globalResponse.GlobalResult
