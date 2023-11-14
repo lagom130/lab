@@ -23,7 +23,7 @@ class TemplateController {
 
     @PostMapping("")
     fun addOne(@RequestBody dto:MessageTemplateDTO):GlobalResult<Long> {
-        return ResultUtils.success(200,"success",messageTemplateService.addOne(dto))
+        return ResultUtils.success(messageTemplateService.addOne(dto))
     }
 
     @PutMapping("/{id}")
@@ -35,7 +35,7 @@ class TemplateController {
 
     @GetMapping("/{id}")
     fun getOne(@PathVariable("id") id: Long):GlobalResult<MessageTemplateVO?> {
-        return ResultUtils.success(200,"success",messageTemplateService.getOne(id))
+        return ResultUtils.success(messageTemplateService.getOne(id))
     }
 
     @DeleteMapping("/{id}")

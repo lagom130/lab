@@ -11,8 +11,8 @@ class ResultUtils<T> {
             return GlobalResult(200,"操作成功",null)
         }
 
-        fun <T> success(code: Int, message: String, data: T): GlobalResult<T> {
-            return GlobalResult(code, message, data)
+        fun <T> success(data: T): GlobalResult<T> {
+            return GlobalResult(200, "操作成功", data)
         }
     }
 }
