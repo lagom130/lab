@@ -1,6 +1,6 @@
 package io.github.lagom130.lab.globalResponse
 
-import io.github130.lab.cat.globalResponse.GlobalResult
+import io.github.logom130.lab.globalResponse.GlobalResult
 
 class ResultUtils<T> {
     companion object{

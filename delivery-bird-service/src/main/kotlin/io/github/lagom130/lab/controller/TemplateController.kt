@@ -4,7 +4,7 @@ import io.github.lagom130.lab.dto.MessageTemplateDTO
 import io.github.lagom130.lab.globalResponse.ResultUtils
 import io.github.lagom130.lab.service.IMessageTemplateService
 import io.github.lagom130.lab.vo.MessageTemplateVO
-import io.github130.lab.cat.globalResponse.GlobalResult
+import io.github.logom130.lab.globalResponse.GlobalResult
 import jakarta.annotation.Resource
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping

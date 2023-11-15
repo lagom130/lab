@@ -1,6 +1,7 @@
 package io.github.lagom130.lab.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl
+import io.github.lagom130.lab.client.MetaClient
 import io.github.lagom130.lab.convert.MessageTemplateConvert
 import io.github.lagom130.lab.dto.MessageTemplateDTO
 import io.github.lagom130.lab.entity.MessageTemplate
@@ -23,11 +24,12 @@ import kotlin.random.Random
 open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, MessageTemplate>(), IMessageTemplateService {
     @Resource
     private lateinit var messageTemplateMapper: MessageTemplateMapper
+    @Resource
+    private lateinit var metaClient: MetaClient;
 
     override fun addOne(dto: MessageTemplateDTO): Long {
         var messageTemplate = MessageTemplateConvert.INSTANCE.dtoToEntity(dto)
-        // TODO : use meta-service id generator
-        val id = Random.nextLong()
+        val id = metaClient.snowflakeId
         messageTemplate.id = id
         this.save(messageTemplate)
         return id
