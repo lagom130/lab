@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping
 
 @FeignClient(value = "meta-service", configuration = [ClientDecodeConfiguration::class])
 interface MetaClient {
-    @get:GetMapping(value = ["/snowflakes/global/identifier"])
-    val snowflakeId: Long
+    @GetMapping(value = ["/snowflakes/global/identifier"])
+    fun getSnowflakeId(): Long
 }

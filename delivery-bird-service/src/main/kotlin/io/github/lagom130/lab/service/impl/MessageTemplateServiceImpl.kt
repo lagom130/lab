@@ -10,7 +10,6 @@ import io.github.lagom130.lab.service.IMessageTemplateService
 import io.github.lagom130.lab.vo.MessageTemplateVO
 import jakarta.annotation.Resource
 import org.springframework.stereotype.Service
-import kotlin.random.Random
 
 /**
  * <p>
@@ -29,7 +28,7 @@ open class MessageTemplateServiceImpl : ServiceImpl<MessageTemplateMapper, Messa
 
     override fun addOne(dto: MessageTemplateDTO): Long {
         var messageTemplate = MessageTemplateConvert.INSTANCE.dtoToEntity(dto)
-        val id = metaClient.snowflakeId
+        val id = metaClient.getSnowflakeId()
         messageTemplate.id = id
         this.save(messageTemplate)
         return id

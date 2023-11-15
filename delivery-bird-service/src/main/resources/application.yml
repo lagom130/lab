@@ -2,7 +2,7 @@ server:
   port: 11010
 spring:
   application:
-    name: delibird-meta-service
+    name: delivery-bird-service
 #  cloud:
 #    nacos:
 #      server-addr: 127.0.0.1:8848

@@ -3,10 +3,12 @@ package io.github.lagom130.lab
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.cloud.openfeign.EnableFeignClients
 import org.springframework.context.annotation.Bean
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView
 
 @SpringBootApplication
+@EnableFeignClients
 class DelibirdMetaApplication
 
 fun main(args: Array<String>) {
