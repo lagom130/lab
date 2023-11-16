@@ -8,5 +8,5 @@
     </parent>
     <groupId>io.github.lagom130.lab</groupId>
     <artifactId>arcane-vault-commons</artifactId>
-    <name>arcane-vault-common</name>
+    <packaging>pom</packaging>
 </project>
