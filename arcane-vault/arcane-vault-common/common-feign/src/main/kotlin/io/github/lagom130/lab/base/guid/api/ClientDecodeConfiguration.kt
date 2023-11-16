@@ -1,4 +1,4 @@
-package io.github.lagom130.lab.common.feign.config
+package io.github.lagom130.lab.base.guid.api
 
 import feign.codec.Decoder
 import feign.codec.ErrorDecoder
