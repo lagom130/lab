@@ -1,7 +1,7 @@
 package io.github.lagom130.lab.controller
 
-import io.github.lagom130.lab.common.web.utils.ResultUtils
-import io.github.lagom130.lab.common.web.vo.GlobalResult
+import io.github.lagom130.lab.common.core.utils.ResultUtils
+import io.github.lagom130.lab.common.core.vo.GlobalResult
 import io.github.lagom130.lab.service.GuidService
 import jakarta.annotation.Resource
 import org.springframework.web.bind.annotation.GetMapping

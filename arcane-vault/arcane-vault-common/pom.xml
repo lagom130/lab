@@ -13,5 +13,6 @@
     <modules>
         <module>common-core</module>
         <module>common-web</module>
+        <module>common-feign</module>
     </modules>
 </project>

@@ -1,6 +1,6 @@
-package io.github.lagom130.lab.common.web.utils
+package io.github.lagom130.lab.common.core.utils
 
-import io.github.lagom130.lab.common.web.vo.GlobalResult
+import io.github.lagom130.lab.common.core.vo.GlobalResult
 
 class ResultUtils<T> {
     companion object{
