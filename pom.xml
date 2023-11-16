@@ -34,6 +34,7 @@
         <module>cat-canary</module>
         <!-- kotlin delivery-bird-service modules -->
         <module>delivery-bird-service</module>
+        <module>arcane-vault</module>
 
     </modules>
 
