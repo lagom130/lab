@@ -8,7 +8,7 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
+	<groupId>io.github.lagom130.lab</groupId>
 	<artifactId>guid-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>guid-service</name>
@@ -20,6 +20,11 @@
 		<spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>io.github.lagom130.lab</groupId>
+			<artifactId>common-web</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
