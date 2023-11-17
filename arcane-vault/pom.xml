@@ -25,8 +25,14 @@
     </properties>
 
     <modules>
-        <module>nexus</module>
+        <!-- common modules -->
         <module>minerals</module>
+        <!-- micro services base modules -->
+        <module>nexus</module>
+        <!-- message modules -->
+        <module>delivery-bird</module>
+        <!-- data exchange modules -->
+<!--        <module>nydus-worm</module>-->
     </modules>
 
     <dependencyManagement>
